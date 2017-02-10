@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80C981531E4D451D00631E6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C981521E4D451D00631E6B /* AppDelegate.swift */; };
+		80C981551E4D451D00631E6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C981541E4D451D00631E6B /* ViewController.swift */; };
+		80C981581E4D451D00631E6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C981561E4D451D00631E6B /* Main.storyboard */; };
+		80C9815A1E4D451D00631E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C981591E4D451D00631E6B /* Assets.xcassets */; };
+		80C9815D1E4D451D00631E6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C9815B1E4D451D00631E6B /* LaunchScreen.storyboard */; };
+		80C981681E4D451E00631E6B /* ASAPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C981671E4D451E00631E6B /* ASAPTests.swift */; };
+		80C981731E4D451E00631E6B /* ASAPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C981721E4D451E00631E6B /* ASAPUITests.swift */; };
+		80C981781E4D451E00631E6B /* ASAP WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 80C981771E4D451E00631E6B /* ASAP WatchKit App.app */; };
+		80C9817E1E4D451E00631E6B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C9817C1E4D451E00631E6B /* Interface.storyboard */; };
+		80C981801E4D451E00631E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C9817F1E4D451E00631E6B /* Assets.xcassets */; };
+		80C981871E4D451E00631E6B /* ASAP WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 80C981861E4D451E00631E6B /* ASAP WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		80C9818E1E4D451E00631E6B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C9818D1E4D451E00631E6B /* InterfaceController.swift */; };
+		80C981901E4D451E00631E6B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C9818F1E4D451E00631E6B /* ExtensionDelegate.swift */; };
+		80C981921E4D451E00631E6B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C981911E4D451E00631E6B /* NotificationController.swift */; };
+		80C981941E4D451E00631E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C981931E4D451E00631E6B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80C981641E4D451E00631E6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80C981471E4D451B00631E6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80C9814E1E4D451B00631E6B;
+			remoteInfo = ASAP;
+		};
+		80C9816F1E4D451E00631E6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80C981471E4D451B00631E6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80C9814E1E4D451B00631E6B;
+			remoteInfo = ASAP;
+		};
+		80C981791E4D451E00631E6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80C981471E4D451B00631E6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80C981761E4D451E00631E6B;
+			remoteInfo = "ASAP WatchKit App";
+		};
+		80C981881E4D451E00631E6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80C981471E4D451B00631E6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80C981851E4D451E00631E6B;
+			remoteInfo = "ASAP WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		80C9819B1E4D451E00631E6B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				80C981871E4D451E00631E6B /* ASAP WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C9819F1E4D451E00631E6B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				80C981781E4D451E00631E6B /* ASAP WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		80C9814F1E4D451D00631E6B /* ASAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C981521E4D451D00631E6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80C981541E4D451D00631E6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80C981571E4D451D00631E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80C981591E4D451D00631E6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80C9815C1E4D451D00631E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80C9815E1E4D451D00631E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C981631E4D451E00631E6B /* ASAPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASAPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C981671E4D451E00631E6B /* ASAPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASAPTests.swift; sourceTree = "<group>"; };
+		80C981691E4D451E00631E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C9816E1E4D451E00631E6B /* ASAPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASAPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C981721E4D451E00631E6B /* ASAPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASAPUITests.swift; sourceTree = "<group>"; };
+		80C981741E4D451E00631E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C981771E4D451E00631E6B /* ASAP WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASAP WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C9817D1E4D451E00631E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		80C9817F1E4D451E00631E6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80C981811E4D451E00631E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C981861E4D451E00631E6B /* ASAP WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ASAP WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C9818C1E4D451E00631E6B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		80C9818D1E4D451E00631E6B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		80C9818F1E4D451E00631E6B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		80C981911E4D451E00631E6B /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		80C981931E4D451E00631E6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80C981951E4D451E00631E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80C9814C1E4D451B00631E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C981601E4D451E00631E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C9816B1E4D451E00631E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C981831E4D451E00631E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80C981461E4D451B00631E6B = {
+			isa = PBXGroup;
+			children = (
+				80C981511E4D451D00631E6B /* ASAP */,
+				80C981661E4D451E00631E6B /* ASAPTests */,
+				80C981711E4D451E00631E6B /* ASAPUITests */,
+				80C9817B1E4D451E00631E6B /* ASAP WatchKit App */,
+				80C9818A1E4D451E00631E6B /* ASAP WatchKit Extension */,
+				80C981501E4D451D00631E6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80C981501E4D451D00631E6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80C9814F1E4D451D00631E6B /* ASAP.app */,
+				80C981631E4D451E00631E6B /* ASAPTests.xctest */,
+				80C9816E1E4D451E00631E6B /* ASAPUITests.xctest */,
+				80C981771E4D451E00631E6B /* ASAP WatchKit App.app */,
+				80C981861E4D451E00631E6B /* ASAP WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80C981511E4D451D00631E6B /* ASAP */ = {
+			isa = PBXGroup;
+			children = (
+				80C981521E4D451D00631E6B /* AppDelegate.swift */,
+				80C981541E4D451D00631E6B /* ViewController.swift */,
+				80C981561E4D451D00631E6B /* Main.storyboard */,
+				80C981591E4D451D00631E6B /* Assets.xcassets */,
+				80C9815B1E4D451D00631E6B /* LaunchScreen.storyboard */,
+				80C9815E1E4D451D00631E6B /* Info.plist */,
+			);
+			path = ASAP;
+			sourceTree = "<group>";
+		};
+		80C981661E4D451E00631E6B /* ASAPTests */ = {
+			isa = PBXGroup;
+			children = (
+				80C981671E4D451E00631E6B /* ASAPTests.swift */,
+				80C981691E4D451E00631E6B /* Info.plist */,
+			);
+			path = ASAPTests;
+			sourceTree = "<group>";
+		};
+		80C981711E4D451E00631E6B /* ASAPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80C981721E4D451E00631E6B /* ASAPUITests.swift */,
+				80C981741E4D451E00631E6B /* Info.plist */,
+			);
+			path = ASAPUITests;
+			sourceTree = "<group>";
+		};
+		80C9817B1E4D451E00631E6B /* ASAP WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				80C9817C1E4D451E00631E6B /* Interface.storyboard */,
+				80C9817F1E4D451E00631E6B /* Assets.xcassets */,
+				80C981811E4D451E00631E6B /* Info.plist */,
+			);
+			path = "ASAP WatchKit App";
+			sourceTree = "<group>";
+		};
+		80C9818A1E4D451E00631E6B /* ASAP WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				80C9818D1E4D451E00631E6B /* InterfaceController.swift */,
+				80C9818F1E4D451E00631E6B /* ExtensionDelegate.swift */,
+				80C981911E4D451E00631E6B /* NotificationController.swift */,
+				80C981931E4D451E00631E6B /* Assets.xcassets */,
+				80C981951E4D451E00631E6B /* Info.plist */,
+				80C9818B1E4D451E00631E6B /* Supporting Files */,
+			);
+			path = "ASAP WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		80C9818B1E4D451E00631E6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80C9818C1E4D451E00631E6B /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80C9814E1E4D451B00631E6B /* ASAP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80C981A01E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAP" */;
+			buildPhases = (
+				80C9814B1E4D451B00631E6B /* Sources */,
+				80C9814C1E4D451B00631E6B /* Frameworks */,
+				80C9814D1E4D451B00631E6B /* Resources */,
+				80C9819F1E4D451E00631E6B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80C9817A1E4D451E00631E6B /* PBXTargetDependency */,
+			);
+			name = ASAP;
+			productName = ASAP;
+			productReference = 80C9814F1E4D451D00631E6B /* ASAP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80C981621E4D451E00631E6B /* ASAPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80C981A31E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAPTests" */;
+			buildPhases = (
+				80C9815F1E4D451E00631E6B /* Sources */,
+				80C981601E4D451E00631E6B /* Frameworks */,
+				80C981611E4D451E00631E6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80C981651E4D451E00631E6B /* PBXTargetDependency */,
+			);
+			name = ASAPTests;
+			productName = ASAPTests;
+			productReference = 80C981631E4D451E00631E6B /* ASAPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80C9816D1E4D451E00631E6B /* ASAPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80C981A61E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAPUITests" */;
+			buildPhases = (
+				80C9816A1E4D451E00631E6B /* Sources */,
+				80C9816B1E4D451E00631E6B /* Frameworks */,
+				80C9816C1E4D451E00631E6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80C981701E4D451E00631E6B /* PBXTargetDependency */,
+			);
+			name = ASAPUITests;
+			productName = ASAPUITests;
+			productReference = 80C9816E1E4D451E00631E6B /* ASAPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		80C981761E4D451E00631E6B /* ASAP WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80C9819C1E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAP WatchKit App" */;
+			buildPhases = (
+				80C981751E4D451E00631E6B /* Resources */,
+				80C9819B1E4D451E00631E6B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80C981891E4D451E00631E6B /* PBXTargetDependency */,
+			);
+			name = "ASAP WatchKit App";
+			productName = "ASAP WatchKit App";
+			productReference = 80C981771E4D451E00631E6B /* ASAP WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		80C981851E4D451E00631E6B /* ASAP WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80C981981E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAP WatchKit Extension" */;
+			buildPhases = (
+				80C981821E4D451E00631E6B /* Sources */,
+				80C981831E4D451E00631E6B /* Frameworks */,
+				80C981841E4D451E00631E6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ASAP WatchKit Extension";
+			productName = "ASAP WatchKit Extension";
+			productReference = 80C981861E4D451E00631E6B /* ASAP WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80C981471E4D451B00631E6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ASAP;
+				TargetAttributes = {
+					80C9814E1E4D451B00631E6B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CJ4D7D4DV6;
+						ProvisioningStyle = Automatic;
+					};
+					80C981621E4D451E00631E6B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CJ4D7D4DV6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80C9814E1E4D451B00631E6B;
+					};
+					80C9816D1E4D451E00631E6B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CJ4D7D4DV6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80C9814E1E4D451B00631E6B;
+					};
+					80C981761E4D451E00631E6B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CJ4D7D4DV6;
+						ProvisioningStyle = Automatic;
+					};
+					80C981851E4D451E00631E6B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CJ4D7D4DV6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 80C9814A1E4D451B00631E6B /* Build configuration list for PBXProject "ASAP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80C981461E4D451B00631E6B;
+			productRefGroup = 80C981501E4D451D00631E6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80C9814E1E4D451B00631E6B /* ASAP */,
+				80C981621E4D451E00631E6B /* ASAPTests */,
+				80C9816D1E4D451E00631E6B /* ASAPUITests */,
+				80C981761E4D451E00631E6B /* ASAP WatchKit App */,
+				80C981851E4D451E00631E6B /* ASAP WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80C9814D1E4D451B00631E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C9815D1E4D451D00631E6B /* LaunchScreen.storyboard in Resources */,
+				80C9815A1E4D451D00631E6B /* Assets.xcassets in Resources */,
+				80C981581E4D451D00631E6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C981611E4D451E00631E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C9816C1E4D451E00631E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C981751E4D451E00631E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C981801E4D451E00631E6B /* Assets.xcassets in Resources */,
+				80C9817E1E4D451E00631E6B /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C981841E4D451E00631E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C981941E4D451E00631E6B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80C9814B1E4D451B00631E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C981551E4D451D00631E6B /* ViewController.swift in Sources */,
+				80C981531E4D451D00631E6B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C9815F1E4D451E00631E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C981681E4D451E00631E6B /* ASAPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C9816A1E4D451E00631E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C981731E4D451E00631E6B /* ASAPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C981821E4D451E00631E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C981921E4D451E00631E6B /* NotificationController.swift in Sources */,
+				80C981901E4D451E00631E6B /* ExtensionDelegate.swift in Sources */,
+				80C9818E1E4D451E00631E6B /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80C981651E4D451E00631E6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80C9814E1E4D451B00631E6B /* ASAP */;
+			targetProxy = 80C981641E4D451E00631E6B /* PBXContainerItemProxy */;
+		};
+		80C981701E4D451E00631E6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80C9814E1E4D451B00631E6B /* ASAP */;
+			targetProxy = 80C9816F1E4D451E00631E6B /* PBXContainerItemProxy */;
+		};
+		80C9817A1E4D451E00631E6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80C981761E4D451E00631E6B /* ASAP WatchKit App */;
+			targetProxy = 80C981791E4D451E00631E6B /* PBXContainerItemProxy */;
+		};
+		80C981891E4D451E00631E6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80C981851E4D451E00631E6B /* ASAP WatchKit Extension */;
+			targetProxy = 80C981881E4D451E00631E6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80C981561E4D451D00631E6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C981571E4D451D00631E6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80C9815B1E4D451D00631E6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C9815C1E4D451D00631E6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		80C9817C1E4D451E00631E6B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80C9817D1E4D451E00631E6B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80C981961E4D451E00631E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80C981971E4D451E00631E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80C981991E4D451E00631E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = CJ4D7D4DV6;
+				INFOPLIST_FILE = "ASAP WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAP.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		80C9819A1E4D451E00631E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = CJ4D7D4DV6;
+				INFOPLIST_FILE = "ASAP WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAP.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		80C9819D1E4D451E00631E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CJ4D7D4DV6;
+				IBSC_MODULE = ASAP_WatchKit_Extension;
+				INFOPLIST_FILE = "ASAP WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAP.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		80C9819E1E4D451E00631E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CJ4D7D4DV6;
+				IBSC_MODULE = ASAP_WatchKit_Extension;
+				INFOPLIST_FILE = "ASAP WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAP.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		80C981A11E4D451E00631E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CJ4D7D4DV6;
+				INFOPLIST_FILE = ASAP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		80C981A21E4D451E00631E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CJ4D7D4DV6;
+				INFOPLIST_FILE = ASAP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		80C981A41E4D451E00631E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CJ4D7D4DV6;
+				INFOPLIST_FILE = ASAPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASAP.app/ASAP";
+			};
+			name = Debug;
+		};
+		80C981A51E4D451E00631E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CJ4D7D4DV6;
+				INFOPLIST_FILE = ASAPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASAP.app/ASAP";
+			};
+			name = Release;
+		};
+		80C981A71E4D451E00631E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CJ4D7D4DV6;
+				INFOPLIST_FILE = ASAPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ASAP;
+			};
+			name = Debug;
+		};
+		80C981A81E4D451E00631E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CJ4D7D4DV6;
+				INFOPLIST_FILE = ASAPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ASAP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80C9814A1E4D451B00631E6B /* Build configuration list for PBXProject "ASAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C981961E4D451E00631E6B /* Debug */,
+				80C981971E4D451E00631E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80C981981E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAP WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C981991E4D451E00631E6B /* Debug */,
+				80C9819A1E4D451E00631E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80C9819C1E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAP WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C9819D1E4D451E00631E6B /* Debug */,
+				80C9819E1E4D451E00631E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80C981A01E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C981A11E4D451E00631E6B /* Debug */,
+				80C981A21E4D451E00631E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80C981A31E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C981A41E4D451E00631E6B /* Debug */,
+				80C981A51E4D451E00631E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80C981A61E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C981A71E4D451E00631E6B /* Debug */,
+				80C981A81E4D451E00631E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80C981471E4D451B00631E6B /* Project object */;
+}
