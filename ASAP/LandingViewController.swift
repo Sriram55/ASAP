@@ -34,9 +34,19 @@ class LandingViewController: UIViewController {
     }
 
     @IBAction func goToRegistration(_ sender: UIButton) {
+        
+        let signInOrSignUpVC = self.storyboard!.instantiateViewController(withIdentifier: "SignInOrSignUpViewController") as! SignInOrSignUpViewController
+        self.navigationController?.pushViewController(signInOrSignUpVC, animated: false)
+
+        
     }
 
     @IBAction func goToLogin(_ sender: UIButton) {
+        
+        let asapTabBarController = self.storyboard!.instantiateViewController(withIdentifier: "ASAPTabbarViewController") as! ASAPTabbarViewController
+        self.navigationController?.pushViewController(asapTabBarController, animated: false)
+
+        
     }
     
     @IBAction func goToHelp(_ sender: UIButton) {

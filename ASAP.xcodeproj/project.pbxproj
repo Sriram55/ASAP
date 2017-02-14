@@ -28,6 +28,24 @@
 		802D4DAB1E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802D4DA81E520F5800E2DEC4 /* UIColor+ASAPHelper.swift */; };
 		802D4DAC1E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802D4DA81E520F5800E2DEC4 /* UIColor+ASAPHelper.swift */; };
 		802D4DAD1E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802D4DA81E520F5800E2DEC4 /* UIColor+ASAPHelper.swift */; };
+		8083DA321E5368BA00FA9B3D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA311E5368BA00FA9B3D /* HomeViewController.swift */; };
+		8083DA331E5368BA00FA9B3D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA311E5368BA00FA9B3D /* HomeViewController.swift */; };
+		8083DA341E5368BA00FA9B3D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA311E5368BA00FA9B3D /* HomeViewController.swift */; };
+		8083DA361E5368CB00FA9B3D /* DTHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA351E5368CB00FA9B3D /* DTHViewController.swift */; };
+		8083DA371E5368CB00FA9B3D /* DTHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA351E5368CB00FA9B3D /* DTHViewController.swift */; };
+		8083DA381E5368CB00FA9B3D /* DTHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA351E5368CB00FA9B3D /* DTHViewController.swift */; };
+		8083DA3A1E5368DA00FA9B3D /* TelecomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA391E5368DA00FA9B3D /* TelecomViewController.swift */; };
+		8083DA3B1E5368DA00FA9B3D /* TelecomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA391E5368DA00FA9B3D /* TelecomViewController.swift */; };
+		8083DA3C1E5368DA00FA9B3D /* TelecomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA391E5368DA00FA9B3D /* TelecomViewController.swift */; };
+		8083DA3E1E5368F500FA9B3D /* FinancialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA3D1E5368F500FA9B3D /* FinancialViewController.swift */; };
+		8083DA3F1E5368F500FA9B3D /* FinancialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA3D1E5368F500FA9B3D /* FinancialViewController.swift */; };
+		8083DA401E5368F500FA9B3D /* FinancialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA3D1E5368F500FA9B3D /* FinancialViewController.swift */; };
+		8083DA421E53690300FA9B3D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA411E53690300FA9B3D /* ProfileViewController.swift */; };
+		8083DA431E53690300FA9B3D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA411E53690300FA9B3D /* ProfileViewController.swift */; };
+		8083DA441E53690300FA9B3D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA411E53690300FA9B3D /* ProfileViewController.swift */; };
+		8083DA461E536A2800FA9B3D /* ASAPTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA451E536A2800FA9B3D /* ASAPTabbarViewController.swift */; };
+		8083DA471E536A2800FA9B3D /* ASAPTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA451E536A2800FA9B3D /* ASAPTabbarViewController.swift */; };
+		8083DA481E536A2800FA9B3D /* ASAPTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA451E536A2800FA9B3D /* ASAPTabbarViewController.swift */; };
 		809640631E52222E005C02B8 /* SignInOrSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809640621E52222E005C02B8 /* SignInOrSignUpViewController.swift */; };
 		809640641E52222E005C02B8 /* SignInOrSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809640621E52222E005C02B8 /* SignInOrSignUpViewController.swift */; };
 		809640651E52222E005C02B8 /* SignInOrSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809640621E52222E005C02B8 /* SignInOrSignUpViewController.swift */; };
@@ -171,6 +189,12 @@
 		802D4D941E52092400E2DEC4 /* MyriadPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Regular.ttf"; sourceTree = "<group>"; };
 		802D4D951E52092400E2DEC4 /* MyriadPro-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Semibold.ttf"; sourceTree = "<group>"; };
 		802D4DA81E520F5800E2DEC4 /* UIColor+ASAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ASAPHelper.swift"; sourceTree = "<group>"; };
+		8083DA311E5368BA00FA9B3D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8083DA351E5368CB00FA9B3D /* DTHViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTHViewController.swift; sourceTree = "<group>"; };
+		8083DA391E5368DA00FA9B3D /* TelecomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelecomViewController.swift; sourceTree = "<group>"; };
+		8083DA3D1E5368F500FA9B3D /* FinancialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialViewController.swift; sourceTree = "<group>"; };
+		8083DA411E53690300FA9B3D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8083DA451E536A2800FA9B3D /* ASAPTabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASAPTabbarViewController.swift; sourceTree = "<group>"; };
 		809640621E52222E005C02B8 /* SignInOrSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInOrSignUpViewController.swift; sourceTree = "<group>"; };
 		80C9814F1E4D451D00631E6B /* ASAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C981521E4D451D00631E6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -307,6 +331,12 @@
 			children = (
 				80C981541E4D451D00631E6B /* LandingViewController.swift */,
 				809640621E52222E005C02B8 /* SignInOrSignUpViewController.swift */,
+				8083DA451E536A2800FA9B3D /* ASAPTabbarViewController.swift */,
+				8083DA311E5368BA00FA9B3D /* HomeViewController.swift */,
+				8083DA391E5368DA00FA9B3D /* TelecomViewController.swift */,
+				8083DA351E5368CB00FA9B3D /* DTHViewController.swift */,
+				8083DA3D1E5368F500FA9B3D /* FinancialViewController.swift */,
+				8083DA411E53690300FA9B3D /* ProfileViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -1038,8 +1068,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8083DA321E5368BA00FA9B3D /* HomeViewController.swift in Sources */,
+				8083DA361E5368CB00FA9B3D /* DTHViewController.swift in Sources */,
 				802D4DA91E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */,
 				809640631E52222E005C02B8 /* SignInOrSignUpViewController.swift in Sources */,
+				8083DA3E1E5368F500FA9B3D /* FinancialViewController.swift in Sources */,
+				8083DA3A1E5368DA00FA9B3D /* TelecomViewController.swift in Sources */,
+				8083DA421E53690300FA9B3D /* ProfileViewController.swift in Sources */,
+				8083DA461E536A2800FA9B3D /* ASAPTabbarViewController.swift in Sources */,
 				80C981551E4D451D00631E6B /* LandingViewController.swift in Sources */,
 				80C981531E4D451D00631E6B /* AppDelegate.swift in Sources */,
 			);
@@ -1077,8 +1113,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8083DA331E5368BA00FA9B3D /* HomeViewController.swift in Sources */,
+				8083DA371E5368CB00FA9B3D /* DTHViewController.swift in Sources */,
 				802D4DAA1E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */,
 				809640641E52222E005C02B8 /* SignInOrSignUpViewController.swift in Sources */,
+				8083DA3F1E5368F500FA9B3D /* FinancialViewController.swift in Sources */,
+				8083DA3B1E5368DA00FA9B3D /* TelecomViewController.swift in Sources */,
+				8083DA431E53690300FA9B3D /* ProfileViewController.swift in Sources */,
+				8083DA471E536A2800FA9B3D /* ASAPTabbarViewController.swift in Sources */,
 				80C981AD1E4D48A900631E6B /* LandingViewController.swift in Sources */,
 				80C981AE1E4D48A900631E6B /* AppDelegate.swift in Sources */,
 			);
@@ -1088,8 +1130,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8083DA341E5368BA00FA9B3D /* HomeViewController.swift in Sources */,
+				8083DA381E5368CB00FA9B3D /* DTHViewController.swift in Sources */,
 				802D4DAB1E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */,
 				809640651E52222E005C02B8 /* SignInOrSignUpViewController.swift in Sources */,
+				8083DA401E5368F500FA9B3D /* FinancialViewController.swift in Sources */,
+				8083DA3C1E5368DA00FA9B3D /* TelecomViewController.swift in Sources */,
+				8083DA441E53690300FA9B3D /* ProfileViewController.swift in Sources */,
+				8083DA481E536A2800FA9B3D /* ASAPTabbarViewController.swift in Sources */,
 				80C981BF1E4D492400631E6B /* LandingViewController.swift in Sources */,
 				80C981C01E4D492400631E6B /* AppDelegate.swift in Sources */,
 			);
