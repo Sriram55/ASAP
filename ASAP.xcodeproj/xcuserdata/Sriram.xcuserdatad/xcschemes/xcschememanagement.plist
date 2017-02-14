@@ -7,17 +7,27 @@
 		<key>ASAP WatchKit App (Notification).xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>4</integer>
 		</dict>
 		<key>ASAP WatchKit App.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<key>ASAP.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>ASAP_Appstore.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>ASAP_Production.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -38,6 +48,16 @@
 			<true/>
 		</dict>
 		<key>80C981761E4D451E00631E6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>80C981A91E4D48A900631E6B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>80C981BB1E4D492400631E6B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

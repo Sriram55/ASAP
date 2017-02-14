@@ -7,8 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0591ACE9AC49F70DF89684A0 /* Pods_ASAP_Appstore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144EAD956FDA56EB105FB216 /* Pods_ASAP_Appstore.framework */; };
+		09DB02B53F0A9A4290A92C32 /* Pods_ASAPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAB28D92CBDD771B9C21A88 /* Pods_ASAPTests.framework */; };
+		364DBAD40329DF9317566D3B /* Pods_ASAPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90318BD2428A3EDB4BFE342F /* Pods_ASAPUITests.framework */; };
+		61F69C2E7337160FCEC79914 /* Pods_ASAP_Production.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C345FEF2D8C9B60C457E8A54 /* Pods_ASAP_Production.framework */; };
+		802D4D961E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D941E52092400E2DEC4 /* MyriadPro-Regular.ttf */; };
+		802D4D971E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D941E52092400E2DEC4 /* MyriadPro-Regular.ttf */; };
+		802D4D981E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D941E52092400E2DEC4 /* MyriadPro-Regular.ttf */; };
+		802D4D991E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D941E52092400E2DEC4 /* MyriadPro-Regular.ttf */; };
+		802D4D9A1E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D941E52092400E2DEC4 /* MyriadPro-Regular.ttf */; };
+		802D4D9B1E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D941E52092400E2DEC4 /* MyriadPro-Regular.ttf */; };
+		802D4D9C1E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D951E52092400E2DEC4 /* MyriadPro-Semibold.ttf */; };
+		802D4D9D1E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D951E52092400E2DEC4 /* MyriadPro-Semibold.ttf */; };
+		802D4D9E1E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D951E52092400E2DEC4 /* MyriadPro-Semibold.ttf */; };
+		802D4D9F1E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D951E52092400E2DEC4 /* MyriadPro-Semibold.ttf */; };
+		802D4DA01E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D951E52092400E2DEC4 /* MyriadPro-Semibold.ttf */; };
+		802D4DA11E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D951E52092400E2DEC4 /* MyriadPro-Semibold.ttf */; };
+		802D4DA91E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802D4DA81E520F5800E2DEC4 /* UIColor+ASAPHelper.swift */; };
+		802D4DAA1E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802D4DA81E520F5800E2DEC4 /* UIColor+ASAPHelper.swift */; };
+		802D4DAB1E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802D4DA81E520F5800E2DEC4 /* UIColor+ASAPHelper.swift */; };
+		802D4DAC1E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802D4DA81E520F5800E2DEC4 /* UIColor+ASAPHelper.swift */; };
+		802D4DAD1E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802D4DA81E520F5800E2DEC4 /* UIColor+ASAPHelper.swift */; };
+		809640631E52222E005C02B8 /* SignInOrSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809640621E52222E005C02B8 /* SignInOrSignUpViewController.swift */; };
+		809640641E52222E005C02B8 /* SignInOrSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809640621E52222E005C02B8 /* SignInOrSignUpViewController.swift */; };
+		809640651E52222E005C02B8 /* SignInOrSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809640621E52222E005C02B8 /* SignInOrSignUpViewController.swift */; };
 		80C981531E4D451D00631E6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C981521E4D451D00631E6B /* AppDelegate.swift */; };
-		80C981551E4D451D00631E6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C981541E4D451D00631E6B /* ViewController.swift */; };
+		80C981551E4D451D00631E6B /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C981541E4D451D00631E6B /* LandingViewController.swift */; };
 		80C981581E4D451D00631E6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C981561E4D451D00631E6B /* Main.storyboard */; };
 		80C9815A1E4D451D00631E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C981591E4D451D00631E6B /* Assets.xcassets */; };
 		80C9815D1E4D451D00631E6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C9815B1E4D451D00631E6B /* LaunchScreen.storyboard */; };
@@ -22,6 +46,21 @@
 		80C981901E4D451E00631E6B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C9818F1E4D451E00631E6B /* ExtensionDelegate.swift */; };
 		80C981921E4D451E00631E6B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C981911E4D451E00631E6B /* NotificationController.swift */; };
 		80C981941E4D451E00631E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C981931E4D451E00631E6B /* Assets.xcassets */; };
+		80C981AD1E4D48A900631E6B /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C981541E4D451D00631E6B /* LandingViewController.swift */; };
+		80C981AE1E4D48A900631E6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C981521E4D451D00631E6B /* AppDelegate.swift */; };
+		80C981B11E4D48A900631E6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C9815B1E4D451D00631E6B /* LaunchScreen.storyboard */; };
+		80C981B21E4D48A900631E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C981591E4D451D00631E6B /* Assets.xcassets */; };
+		80C981B31E4D48A900631E6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C981561E4D451D00631E6B /* Main.storyboard */; };
+		80C981B51E4D48A900631E6B /* ASAP WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 80C981771E4D451E00631E6B /* ASAP WatchKit App.app */; };
+		80C981BF1E4D492400631E6B /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C981541E4D451D00631E6B /* LandingViewController.swift */; };
+		80C981C01E4D492400631E6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C981521E4D451D00631E6B /* AppDelegate.swift */; };
+		80C981C31E4D492400631E6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C9815B1E4D451D00631E6B /* LaunchScreen.storyboard */; };
+		80C981C41E4D492400631E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C981591E4D451D00631E6B /* Assets.xcassets */; };
+		80C981C51E4D492400631E6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C981561E4D451D00631E6B /* Main.storyboard */; };
+		80C981C71E4D492400631E6B /* ASAP WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 80C981771E4D451E00631E6B /* ASAP WatchKit App.app */; };
+		8170F61865D2A62C8D10D6A6 /* Pods_ASAP_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE51C19D100213AA761B8D9E /* Pods_ASAP_WatchKit_App.framework */; };
+		A215A5D3DE7CE4613AD4CF42 /* Pods_ASAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42373D2133D98842910E017D /* Pods_ASAP.framework */; };
+		FD04994035599DE2D0214E56 /* Pods_ASAP_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 903AB9610DB11D6BAA6EAC60 /* Pods_ASAP_WatchKit_Extension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +92,20 @@
 			remoteGlobalIDString = 80C981851E4D451E00631E6B;
 			remoteInfo = "ASAP WatchKit Extension";
 		};
+		80C981AB1E4D48A900631E6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80C981471E4D451B00631E6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80C981761E4D451E00631E6B;
+			remoteInfo = "ASAP WatchKit App";
+		};
+		80C981BD1E4D492400631E6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80C981471E4D451B00631E6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80C981761E4D451E00631E6B;
+			remoteInfo = "ASAP WatchKit App";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -78,12 +131,50 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		80C981B41E4D48A900631E6B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				80C981B51E4D48A900631E6B /* ASAP WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C981C61E4D492400631E6B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				80C981C71E4D492400631E6B /* ASAP WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		03C711D5EF874859F77B05FA /* Pods-ASAP WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP WatchKit Extension/Pods-ASAP WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		144EAD956FDA56EB105FB216 /* Pods_ASAP_Appstore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASAP_Appstore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		170459BC52CFC33C700458A4 /* Pods-ASAPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASAPUITests/Pods-ASAPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		17AF3B4179978615FC369BD6 /* Pods-ASAP_Appstore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP_Appstore.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP_Appstore/Pods-ASAP_Appstore.release.xcconfig"; sourceTree = "<group>"; };
+		24B250A54E888723A6E1FF8E /* Pods-ASAP_Production.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP_Production.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP_Production/Pods-ASAP_Production.debug.xcconfig"; sourceTree = "<group>"; };
+		2C22EB82E71721B91C5807C8 /* Pods-ASAP WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP WatchKit App/Pods-ASAP WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		3A96AF606869AD7558C232FB /* Pods-ASAPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASAPTests/Pods-ASAPTests.release.xcconfig"; sourceTree = "<group>"; };
+		42373D2133D98842910E017D /* Pods_ASAP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASAP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7359C4D1FB4AA4B178992C69 /* Pods-ASAP_Appstore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP_Appstore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP_Appstore/Pods-ASAP_Appstore.debug.xcconfig"; sourceTree = "<group>"; };
+		766E0823C7254B155E14D126 /* Pods-ASAPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASAPUITests/Pods-ASAPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		77C91B7078B944B115A089BC /* Pods-ASAP WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP WatchKit App/Pods-ASAP WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		7BF64EFD0147E835026224DD /* Pods-ASAP WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP WatchKit Extension/Pods-ASAP WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		802D4D941E52092400E2DEC4 /* MyriadPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Regular.ttf"; sourceTree = "<group>"; };
+		802D4D951E52092400E2DEC4 /* MyriadPro-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Semibold.ttf"; sourceTree = "<group>"; };
+		802D4DA81E520F5800E2DEC4 /* UIColor+ASAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ASAPHelper.swift"; sourceTree = "<group>"; };
+		809640621E52222E005C02B8 /* SignInOrSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInOrSignUpViewController.swift; sourceTree = "<group>"; };
 		80C9814F1E4D451D00631E6B /* ASAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C981521E4D451D00631E6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		80C981541E4D451D00631E6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80C981541E4D451D00631E6B /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		80C981571E4D451D00631E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80C981591E4D451D00631E6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80C9815C1E4D451D00631E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -105,13 +196,35 @@
 		80C981911E4D451E00631E6B /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		80C981931E4D451E00631E6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80C981951E4D451E00631E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C981B91E4D48A900631E6B /* ASAP_Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASAP_Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C981BA1E4D48AA00631E6B /* ASAP copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ASAP copy-Info.plist"; path = "/Users/Sriram/Desktop/ASAP/ASAP copy-Info.plist"; sourceTree = "<absolute>"; };
+		80C981CB1E4D492400631E6B /* ASAP_Appstore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASAP_Appstore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C981CC1E4D492400631E6B /* ASAP_Production copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ASAP_Production copy-Info.plist"; path = "/Users/Sriram/Desktop/ASAP/ASAP_Production copy-Info.plist"; sourceTree = "<absolute>"; };
+		90318BD2428A3EDB4BFE342F /* Pods_ASAPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASAPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		903AB9610DB11D6BAA6EAC60 /* Pods_ASAP_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASAP_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23F2F97A79FE3E9A1636746 /* Pods-ASAP_Production.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP_Production.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP_Production/Pods-ASAP_Production.release.xcconfig"; sourceTree = "<group>"; };
+		C345FEF2D8C9B60C457E8A54 /* Pods_ASAP_Production.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASAP_Production.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE51C19D100213AA761B8D9E /* Pods_ASAP_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASAP_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D207BAE98EAF8B9982988748 /* Pods-ASAP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP/Pods-ASAP.debug.xcconfig"; sourceTree = "<group>"; };
+		DEAB28D92CBDD771B9C21A88 /* Pods_ASAPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASAPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BB0B343E4A7C24D979077A /* Pods-ASAP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP/Pods-ASAP.release.xcconfig"; sourceTree = "<group>"; };
+		FF9E2F334BAB8A3DCE9EE1EC /* Pods-ASAPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASAPTests/Pods-ASAPTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		678BB9EE0E911A244EF20859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8170F61865D2A62C8D10D6A6 /* Pods_ASAP_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80C9814C1E4D451B00631E6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A215A5D3DE7CE4613AD4CF42 /* Pods_ASAP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +232,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09DB02B53F0A9A4290A92C32 /* Pods_ASAPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +240,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				364DBAD40329DF9317566D3B /* Pods_ASAPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,12 +248,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD04994035599DE2D0214E56 /* Pods_ASAP_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C981AF1E4D48A900631E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F69C2E7337160FCEC79914 /* Pods_ASAP_Production.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C981C11E4D492400631E6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0591ACE9AC49F70DF89684A0 /* Pods_ASAP_Appstore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		014AC2084F8F155C40297E4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42373D2133D98842910E017D /* Pods_ASAP.framework */,
+				CE51C19D100213AA761B8D9E /* Pods_ASAP_WatchKit_App.framework */,
+				903AB9610DB11D6BAA6EAC60 /* Pods_ASAP_WatchKit_Extension.framework */,
+				DEAB28D92CBDD771B9C21A88 /* Pods_ASAPTests.framework */,
+				90318BD2428A3EDB4BFE342F /* Pods_ASAPUITests.framework */,
+				144EAD956FDA56EB105FB216 /* Pods_ASAP_Appstore.framework */,
+				C345FEF2D8C9B60C457E8A54 /* Pods_ASAP_Production.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		802D4D921E5208D600E2DEC4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				802D4D931E52090400E2DEC4 /* Fonts */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		802D4D931E52090400E2DEC4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				802D4D941E52092400E2DEC4 /* MyriadPro-Regular.ttf */,
+				802D4D951E52092400E2DEC4 /* MyriadPro-Semibold.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		806FCAD11E503C4E00D719C5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				80C981541E4D451D00631E6B /* LandingViewController.swift */,
+				809640621E52222E005C02B8 /* SignInOrSignUpViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		806FCAD21E503FAD00D719C5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				802D4DA81E520F5800E2DEC4 /* UIColor+ASAPHelper.swift */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		80C981461E4D451B00631E6B = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +328,10 @@
 				80C9817B1E4D451E00631E6B /* ASAP WatchKit App */,
 				80C9818A1E4D451E00631E6B /* ASAP WatchKit Extension */,
 				80C981501E4D451D00631E6B /* Products */,
+				80C981BA1E4D48AA00631E6B /* ASAP copy-Info.plist */,
+				80C981CC1E4D492400631E6B /* ASAP_Production copy-Info.plist */,
+				9F941AEA4EAD3BA3A2FAFD50 /* Pods */,
+				014AC2084F8F155C40297E4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +343,8 @@
 				80C9816E1E4D451E00631E6B /* ASAPUITests.xctest */,
 				80C981771E4D451E00631E6B /* ASAP WatchKit App.app */,
 				80C981861E4D451E00631E6B /* ASAP WatchKit Extension.appex */,
+				80C981B91E4D48A900631E6B /* ASAP_Production.app */,
+				80C981CB1E4D492400631E6B /* ASAP_Appstore.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,11 +353,13 @@
 			isa = PBXGroup;
 			children = (
 				80C981521E4D451D00631E6B /* AppDelegate.swift */,
-				80C981541E4D451D00631E6B /* ViewController.swift */,
+				806FCAD21E503FAD00D719C5 /* Categories */,
+				806FCAD11E503C4E00D719C5 /* ViewControllers */,
 				80C981561E4D451D00631E6B /* Main.storyboard */,
 				80C981591E4D451D00631E6B /* Assets.xcassets */,
 				80C9815B1E4D451D00631E6B /* LaunchScreen.storyboard */,
 				80C9815E1E4D451D00631E6B /* Info.plist */,
+				802D4D921E5208D600E2DEC4 /* Resources */,
 			);
 			path = ASAP;
 			sourceTree = "<group>";
@@ -225,6 +413,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9F941AEA4EAD3BA3A2FAFD50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D207BAE98EAF8B9982988748 /* Pods-ASAP.debug.xcconfig */,
+				F6BB0B343E4A7C24D979077A /* Pods-ASAP.release.xcconfig */,
+				2C22EB82E71721B91C5807C8 /* Pods-ASAP WatchKit App.debug.xcconfig */,
+				77C91B7078B944B115A089BC /* Pods-ASAP WatchKit App.release.xcconfig */,
+				7BF64EFD0147E835026224DD /* Pods-ASAP WatchKit Extension.debug.xcconfig */,
+				03C711D5EF874859F77B05FA /* Pods-ASAP WatchKit Extension.release.xcconfig */,
+				FF9E2F334BAB8A3DCE9EE1EC /* Pods-ASAPTests.debug.xcconfig */,
+				3A96AF606869AD7558C232FB /* Pods-ASAPTests.release.xcconfig */,
+				766E0823C7254B155E14D126 /* Pods-ASAPUITests.debug.xcconfig */,
+				170459BC52CFC33C700458A4 /* Pods-ASAPUITests.release.xcconfig */,
+				7359C4D1FB4AA4B178992C69 /* Pods-ASAP_Appstore.debug.xcconfig */,
+				17AF3B4179978615FC369BD6 /* Pods-ASAP_Appstore.release.xcconfig */,
+				24B250A54E888723A6E1FF8E /* Pods-ASAP_Production.debug.xcconfig */,
+				A23F2F97A79FE3E9A1636746 /* Pods-ASAP_Production.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -232,10 +441,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80C981A01E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAP" */;
 			buildPhases = (
+				B5EF36E66CAD9E45630B8529 /* [CP] Check Pods Manifest.lock */,
 				80C9814B1E4D451B00631E6B /* Sources */,
 				80C9814C1E4D451B00631E6B /* Frameworks */,
 				80C9814D1E4D451B00631E6B /* Resources */,
 				80C9819F1E4D451E00631E6B /* Embed Watch Content */,
+				F2A00A1001B6E8C68512EE66 /* [CP] Embed Pods Frameworks */,
+				B19B899CDEBC0B85F30DF3ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,9 +463,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80C981A31E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAPTests" */;
 			buildPhases = (
+				1AD1DBB32764E69C515E0BAA /* [CP] Check Pods Manifest.lock */,
 				80C9815F1E4D451E00631E6B /* Sources */,
 				80C981601E4D451E00631E6B /* Frameworks */,
 				80C981611E4D451E00631E6B /* Resources */,
+				ED522ADE017165D3A214FA42 /* [CP] Embed Pods Frameworks */,
+				29E557FA3F62BCA52065CA02 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,9 +484,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80C981A61E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAPUITests" */;
 			buildPhases = (
+				9F1E4289A56E00C15934F08C /* [CP] Check Pods Manifest.lock */,
 				80C9816A1E4D451E00631E6B /* Sources */,
 				80C9816B1E4D451E00631E6B /* Frameworks */,
 				80C9816C1E4D451E00631E6B /* Resources */,
+				342C6DCC10848E9AA56C7727 /* [CP] Embed Pods Frameworks */,
+				ACE95414E3EEE4F874FC7EB6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,8 +505,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80C9819C1E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAP WatchKit App" */;
 			buildPhases = (
+				A8BE4C6F04FCC64E03085C4D /* [CP] Check Pods Manifest.lock */,
 				80C981751E4D451E00631E6B /* Resources */,
 				80C9819B1E4D451E00631E6B /* Embed App Extensions */,
+				678BB9EE0E911A244EF20859 /* Frameworks */,
+				574392A3A2C5D07EDDD69491 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -304,9 +525,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80C981981E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAP WatchKit Extension" */;
 			buildPhases = (
+				31CD3624899B07A1A00ACA15 /* [CP] Check Pods Manifest.lock */,
 				80C981821E4D451E00631E6B /* Sources */,
 				80C981831E4D451E00631E6B /* Frameworks */,
 				80C981841E4D451E00631E6B /* Resources */,
+				07A3AD03CD014FCE0C9E68C8 /* [CP] Embed Pods Frameworks */,
+				4CB1F50DFB763C460B8AFD6A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -316,6 +540,50 @@
 			productName = "ASAP WatchKit Extension";
 			productReference = 80C981861E4D451E00631E6B /* ASAP WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		80C981A91E4D48A900631E6B /* ASAP_Production */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80C981B61E4D48A900631E6B /* Build configuration list for PBXNativeTarget "ASAP_Production" */;
+			buildPhases = (
+				3E3C73BD59E86DE84E33486A /* [CP] Check Pods Manifest.lock */,
+				80C981AC1E4D48A900631E6B /* Sources */,
+				80C981AF1E4D48A900631E6B /* Frameworks */,
+				80C981B01E4D48A900631E6B /* Resources */,
+				80C981B41E4D48A900631E6B /* Embed Watch Content */,
+				8257525D837FEDA7DE99179E /* [CP] Embed Pods Frameworks */,
+				3F3D1F3F03681699490ADF24 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80C981AA1E4D48A900631E6B /* PBXTargetDependency */,
+			);
+			name = ASAP_Production;
+			productName = ASAP;
+			productReference = 80C981B91E4D48A900631E6B /* ASAP_Production.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80C981BB1E4D492400631E6B /* ASAP_Appstore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80C981C81E4D492400631E6B /* Build configuration list for PBXNativeTarget "ASAP_Appstore" */;
+			buildPhases = (
+				8ABF4C4A8C659E15F99C9F53 /* [CP] Check Pods Manifest.lock */,
+				80C981BE1E4D492400631E6B /* Sources */,
+				80C981C11E4D492400631E6B /* Frameworks */,
+				80C981C21E4D492400631E6B /* Resources */,
+				80C981C61E4D492400631E6B /* Embed Watch Content */,
+				AA57277796F82E1AD2B0C86E /* [CP] Embed Pods Frameworks */,
+				112F7A6405D51155CF34E52E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80C981BC1E4D492400631E6B /* PBXTargetDependency */,
+			);
+			name = ASAP_Appstore;
+			productName = ASAP;
+			productReference = 80C981CB1E4D492400631E6B /* ASAP_Appstore.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -354,6 +622,12 @@
 						DevelopmentTeam = CJ4D7D4DV6;
 						ProvisioningStyle = Automatic;
 					};
+					80C981A91E4D48A900631E6B = {
+						DevelopmentTeam = CJ4D7D4DV6;
+					};
+					80C981BB1E4D492400631E6B = {
+						DevelopmentTeam = CJ4D7D4DV6;
+					};
 				};
 			};
 			buildConfigurationList = 80C9814A1E4D451B00631E6B /* Build configuration list for PBXProject "ASAP" */;
@@ -370,6 +644,8 @@
 			projectRoot = "";
 			targets = (
 				80C9814E1E4D451B00631E6B /* ASAP */,
+				80C981A91E4D48A900631E6B /* ASAP_Production */,
+				80C981BB1E4D492400631E6B /* ASAP_Appstore */,
 				80C981621E4D451E00631E6B /* ASAPTests */,
 				80C9816D1E4D451E00631E6B /* ASAPUITests */,
 				80C981761E4D451E00631E6B /* ASAP WatchKit App */,
@@ -385,7 +661,9 @@
 			files = (
 				80C9815D1E4D451D00631E6B /* LaunchScreen.storyboard in Resources */,
 				80C9815A1E4D451D00631E6B /* Assets.xcassets in Resources */,
+				802D4D9C1E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */,
 				80C981581E4D451D00631E6B /* Main.storyboard in Resources */,
+				802D4D961E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +678,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				802D4D991E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */,
+				802D4D9F1E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +687,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				802D4D9A1E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */,
+				802D4DA01E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */,
 				80C981801E4D451E00631E6B /* Assets.xcassets in Resources */,
 				80C9817E1E4D451E00631E6B /* Interface.storyboard in Resources */,
 			);
@@ -417,17 +699,348 @@
 			buildActionMask = 2147483647;
 			files = (
 				80C981941E4D451E00631E6B /* Assets.xcassets in Resources */,
+				802D4D9B1E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */,
+				802D4DA11E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C981B01E4D48A900631E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C981B11E4D48A900631E6B /* LaunchScreen.storyboard in Resources */,
+				80C981B21E4D48A900631E6B /* Assets.xcassets in Resources */,
+				802D4D9D1E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */,
+				80C981B31E4D48A900631E6B /* Main.storyboard in Resources */,
+				802D4D971E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C981C21E4D492400631E6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C981C31E4D492400631E6B /* LaunchScreen.storyboard in Resources */,
+				80C981C41E4D492400631E6B /* Assets.xcassets in Resources */,
+				802D4D9E1E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */,
+				80C981C51E4D492400631E6B /* Main.storyboard in Resources */,
+				802D4D981E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07A3AD03CD014FCE0C9E68C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP WatchKit Extension/Pods-ASAP WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		112F7A6405D51155CF34E52E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP_Appstore/Pods-ASAP_Appstore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AD1DBB32764E69C515E0BAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		29E557FA3F62BCA52065CA02 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAPTests/Pods-ASAPTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31CD3624899B07A1A00ACA15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		342C6DCC10848E9AA56C7727 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAPUITests/Pods-ASAPUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E3C73BD59E86DE84E33486A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3F3D1F3F03681699490ADF24 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP_Production/Pods-ASAP_Production-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CB1F50DFB763C460B8AFD6A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP WatchKit Extension/Pods-ASAP WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		574392A3A2C5D07EDDD69491 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP WatchKit App/Pods-ASAP WatchKit App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8257525D837FEDA7DE99179E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP_Production/Pods-ASAP_Production-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ABF4C4A8C659E15F99C9F53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F1E4289A56E00C15934F08C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8BE4C6F04FCC64E03085C4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA57277796F82E1AD2B0C86E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP_Appstore/Pods-ASAP_Appstore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACE95414E3EEE4F874FC7EB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAPUITests/Pods-ASAPUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B19B899CDEBC0B85F30DF3ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP/Pods-ASAP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5EF36E66CAD9E45630B8529 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED522ADE017165D3A214FA42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAPTests/Pods-ASAPTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2A00A1001B6E8C68512EE66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP/Pods-ASAP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		80C9814B1E4D451B00631E6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80C981551E4D451D00631E6B /* ViewController.swift in Sources */,
+				802D4DA91E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */,
+				809640631E52222E005C02B8 /* SignInOrSignUpViewController.swift in Sources */,
+				80C981551E4D451D00631E6B /* LandingViewController.swift in Sources */,
 				80C981531E4D451D00631E6B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +1058,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80C981731E4D451E00631E6B /* ASAPUITests.swift in Sources */,
+				802D4DAC1E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,7 +1068,30 @@
 			files = (
 				80C981921E4D451E00631E6B /* NotificationController.swift in Sources */,
 				80C981901E4D451E00631E6B /* ExtensionDelegate.swift in Sources */,
+				802D4DAD1E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */,
 				80C9818E1E4D451E00631E6B /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C981AC1E4D48A900631E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802D4DAA1E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */,
+				809640641E52222E005C02B8 /* SignInOrSignUpViewController.swift in Sources */,
+				80C981AD1E4D48A900631E6B /* LandingViewController.swift in Sources */,
+				80C981AE1E4D48A900631E6B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C981BE1E4D492400631E6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802D4DAB1E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */,
+				809640651E52222E005C02B8 /* SignInOrSignUpViewController.swift in Sources */,
+				80C981BF1E4D492400631E6B /* LandingViewController.swift in Sources */,
+				80C981C01E4D492400631E6B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +1117,16 @@
 			isa = PBXTargetDependency;
 			target = 80C981851E4D451E00631E6B /* ASAP WatchKit Extension */;
 			targetProxy = 80C981881E4D451E00631E6B /* PBXContainerItemProxy */;
+		};
+		80C981AA1E4D48A900631E6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80C981761E4D451E00631E6B /* ASAP WatchKit App */;
+			targetProxy = 80C981AB1E4D48A900631E6B /* PBXContainerItemProxy */;
+		};
+		80C981BC1E4D492400631E6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80C981761E4D451E00631E6B /* ASAP WatchKit App */;
+			targetProxy = 80C981BD1E4D492400631E6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -604,6 +1251,7 @@
 		};
 		80C981991E4D451E00631E6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BF64EFD0147E835026224DD /* Pods-ASAP WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				DEVELOPMENT_TEAM = CJ4D7D4DV6;
@@ -621,6 +1269,7 @@
 		};
 		80C9819A1E4D451E00631E6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C711D5EF874859F77B05FA /* Pods-ASAP WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				DEVELOPMENT_TEAM = CJ4D7D4DV6;
@@ -638,6 +1287,7 @@
 		};
 		80C9819D1E4D451E00631E6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C22EB82E71721B91C5807C8 /* Pods-ASAP WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -656,6 +1306,7 @@
 		};
 		80C9819E1E4D451E00631E6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77C91B7078B944B115A089BC /* Pods-ASAP WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -674,6 +1325,7 @@
 		};
 		80C981A11E4D451E00631E6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D207BAE98EAF8B9982988748 /* Pods-ASAP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CJ4D7D4DV6;
@@ -687,6 +1339,7 @@
 		};
 		80C981A21E4D451E00631E6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6BB0B343E4A7C24D979077A /* Pods-ASAP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CJ4D7D4DV6;
@@ -700,6 +1353,7 @@
 		};
 		80C981A41E4D451E00631E6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF9E2F334BAB8A3DCE9EE1EC /* Pods-ASAPTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -715,6 +1369,7 @@
 		};
 		80C981A51E4D451E00631E6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A96AF606869AD7558C232FB /* Pods-ASAPTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -730,6 +1385,7 @@
 		};
 		80C981A71E4D451E00631E6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 766E0823C7254B155E14D126 /* Pods-ASAPUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = CJ4D7D4DV6;
@@ -744,6 +1400,7 @@
 		};
 		80C981A81E4D451E00631E6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 170459BC52CFC33C700458A4 /* Pods-ASAPUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = CJ4D7D4DV6;
@@ -753,6 +1410,62 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = ASAP;
+			};
+			name = Release;
+		};
+		80C981B71E4D48A900631E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B250A54E888723A6E1FF8E /* Pods-ASAP_Production.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CJ4D7D4DV6;
+				INFOPLIST_FILE = "ASAP copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		80C981B81E4D48A900631E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A23F2F97A79FE3E9A1636746 /* Pods-ASAP_Production.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CJ4D7D4DV6;
+				INFOPLIST_FILE = "ASAP copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		80C981C91E4D492400631E6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7359C4D1FB4AA4B178992C69 /* Pods-ASAP_Appstore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CJ4D7D4DV6;
+				INFOPLIST_FILE = "ASAP_Production copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		80C981CA1E4D492400631E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17AF3B4179978615FC369BD6 /* Pods-ASAP_Appstore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CJ4D7D4DV6;
+				INFOPLIST_FILE = "ASAP_Production copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -775,6 +1488,7 @@
 				80C9819A1E4D451E00631E6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80C9819C1E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAP WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -783,6 +1497,7 @@
 				80C9819E1E4D451E00631E6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80C981A01E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAP" */ = {
 			isa = XCConfigurationList;
@@ -791,6 +1506,7 @@
 				80C981A21E4D451E00631E6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80C981A31E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAPTests" */ = {
 			isa = XCConfigurationList;
@@ -799,6 +1515,7 @@
 				80C981A51E4D451E00631E6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80C981A61E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAPUITests" */ = {
 			isa = XCConfigurationList;
@@ -807,6 +1524,25 @@
 				80C981A81E4D451E00631E6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80C981B61E4D48A900631E6B /* Build configuration list for PBXNativeTarget "ASAP_Production" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C981B71E4D48A900631E6B /* Debug */,
+				80C981B81E4D48A900631E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80C981C81E4D492400631E6B /* Build configuration list for PBXNativeTarget "ASAP_Appstore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C981C91E4D492400631E6B /* Debug */,
+				80C981CA1E4D492400631E6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
