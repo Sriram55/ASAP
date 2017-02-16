@@ -95,7 +95,7 @@ class ACFloatingTextfield: UITextField {
         bottomLineView?.removeFromSuperview()
 
         //Bottom Line UIView Configuration.
-        bottomLineView = UIView(frame: CGRect(x:0, y:self.frame.height-1, width:self.frame.width, height:1))
+        bottomLineView = UIView(frame: CGRect(x:0, y:self.frame.height-1, width:self.frame.width, height:2))
         bottomLineView?.backgroundColor = lineColor;
         bottomLineView?.tag = 20;
         
@@ -187,7 +187,7 @@ class ACFloatingTextfield: UITextField {
 
         
         var bottomLineFrame = bottomLineView?.frame
-        bottomLineFrame?.origin.y = self.frame.height-1
+        bottomLineFrame?.origin.y = self.frame.height-2
         
         if disableFloatingLabel {
             labelPlaceholder?.isHidden = true

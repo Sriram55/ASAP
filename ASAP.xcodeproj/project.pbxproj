@@ -11,6 +11,12 @@
 		09DB02B53F0A9A4290A92C32 /* Pods_ASAPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAB28D92CBDD771B9C21A88 /* Pods_ASAPTests.framework */; };
 		364DBAD40329DF9317566D3B /* Pods_ASAPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90318BD2428A3EDB4BFE342F /* Pods_ASAPUITests.framework */; };
 		61F69C2E7337160FCEC79914 /* Pods_ASAP_Production.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C345FEF2D8C9B60C457E8A54 /* Pods_ASAP_Production.framework */; };
+		801AB5A01E54A14B00D2123E /* ACFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801AB59F1E54A14B00D2123E /* ACFloatingTextfield.swift */; };
+		801AB5A11E54A14B00D2123E /* ACFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801AB59F1E54A14B00D2123E /* ACFloatingTextfield.swift */; };
+		801AB5A21E54A14B00D2123E /* ACFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801AB59F1E54A14B00D2123E /* ACFloatingTextfield.swift */; };
+		801AB5A51E54AA0C00D2123E /* ASAPFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801AB5A41E54AA0C00D2123E /* ASAPFloatingTextfield.swift */; };
+		801AB5A61E54AA0C00D2123E /* ASAPFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801AB5A41E54AA0C00D2123E /* ASAPFloatingTextfield.swift */; };
+		801AB5A71E54AA0C00D2123E /* ASAPFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801AB5A41E54AA0C00D2123E /* ASAPFloatingTextfield.swift */; };
 		802D4D961E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D941E52092400E2DEC4 /* MyriadPro-Regular.ttf */; };
 		802D4D971E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D941E52092400E2DEC4 /* MyriadPro-Regular.ttf */; };
 		802D4D981E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D941E52092400E2DEC4 /* MyriadPro-Regular.ttf */; };
@@ -186,6 +192,8 @@
 		766E0823C7254B155E14D126 /* Pods-ASAPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASAPUITests/Pods-ASAPUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		77C91B7078B944B115A089BC /* Pods-ASAP WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP WatchKit App/Pods-ASAP WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 		7BF64EFD0147E835026224DD /* Pods-ASAP WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP WatchKit Extension/Pods-ASAP WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		801AB59F1E54A14B00D2123E /* ACFloatingTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACFloatingTextfield.swift; sourceTree = "<group>"; };
+		801AB5A41E54AA0C00D2123E /* ASAPFloatingTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASAPFloatingTextfield.swift; sourceTree = "<group>"; };
 		802D4D941E52092400E2DEC4 /* MyriadPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Regular.ttf"; sourceTree = "<group>"; };
 		802D4D951E52092400E2DEC4 /* MyriadPro-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Semibold.ttf"; sourceTree = "<group>"; };
 		802D4DA81E520F5800E2DEC4 /* UIColor+ASAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ASAPHelper.swift"; sourceTree = "<group>"; };
@@ -309,6 +317,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		801AB59E1E54A12D00D2123E /* Third Party API */ = {
+			isa = PBXGroup;
+			children = (
+				801AB59F1E54A14B00D2123E /* ACFloatingTextfield.swift */,
+			);
+			name = "Third Party API";
+			sourceTree = "<group>";
+		};
+		801AB5A31E54A9E400D2123E /* SubClasses */ = {
+			isa = PBXGroup;
+			children = (
+				801AB5A41E54AA0C00D2123E /* ASAPFloatingTextfield.swift */,
+			);
+			name = SubClasses;
+			sourceTree = "<group>";
+		};
 		802D4D921E5208D600E2DEC4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -383,6 +407,8 @@
 			isa = PBXGroup;
 			children = (
 				80C981521E4D451D00631E6B /* AppDelegate.swift */,
+				801AB5A31E54A9E400D2123E /* SubClasses */,
+				801AB59E1E54A12D00D2123E /* Third Party API */,
 				806FCAD21E503FAD00D719C5 /* Categories */,
 				806FCAD11E503C4E00D719C5 /* ViewControllers */,
 				80C981561E4D451D00631E6B /* Main.storyboard */,
@@ -1071,10 +1097,12 @@
 				8083DA321E5368BA00FA9B3D /* HomeViewController.swift in Sources */,
 				8083DA361E5368CB00FA9B3D /* DTHViewController.swift in Sources */,
 				802D4DA91E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */,
+				801AB5A01E54A14B00D2123E /* ACFloatingTextfield.swift in Sources */,
 				809640631E52222E005C02B8 /* SignInOrSignUpViewController.swift in Sources */,
 				8083DA3E1E5368F500FA9B3D /* FinancialViewController.swift in Sources */,
 				8083DA3A1E5368DA00FA9B3D /* TelecomViewController.swift in Sources */,
 				8083DA421E53690300FA9B3D /* ProfileViewController.swift in Sources */,
+				801AB5A51E54AA0C00D2123E /* ASAPFloatingTextfield.swift in Sources */,
 				8083DA461E536A2800FA9B3D /* ASAPTabbarViewController.swift in Sources */,
 				80C981551E4D451D00631E6B /* LandingViewController.swift in Sources */,
 				80C981531E4D451D00631E6B /* AppDelegate.swift in Sources */,
@@ -1116,10 +1144,12 @@
 				8083DA331E5368BA00FA9B3D /* HomeViewController.swift in Sources */,
 				8083DA371E5368CB00FA9B3D /* DTHViewController.swift in Sources */,
 				802D4DAA1E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */,
+				801AB5A11E54A14B00D2123E /* ACFloatingTextfield.swift in Sources */,
 				809640641E52222E005C02B8 /* SignInOrSignUpViewController.swift in Sources */,
 				8083DA3F1E5368F500FA9B3D /* FinancialViewController.swift in Sources */,
 				8083DA3B1E5368DA00FA9B3D /* TelecomViewController.swift in Sources */,
 				8083DA431E53690300FA9B3D /* ProfileViewController.swift in Sources */,
+				801AB5A61E54AA0C00D2123E /* ASAPFloatingTextfield.swift in Sources */,
 				8083DA471E536A2800FA9B3D /* ASAPTabbarViewController.swift in Sources */,
 				80C981AD1E4D48A900631E6B /* LandingViewController.swift in Sources */,
 				80C981AE1E4D48A900631E6B /* AppDelegate.swift in Sources */,
@@ -1133,10 +1163,12 @@
 				8083DA341E5368BA00FA9B3D /* HomeViewController.swift in Sources */,
 				8083DA381E5368CB00FA9B3D /* DTHViewController.swift in Sources */,
 				802D4DAB1E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */,
+				801AB5A21E54A14B00D2123E /* ACFloatingTextfield.swift in Sources */,
 				809640651E52222E005C02B8 /* SignInOrSignUpViewController.swift in Sources */,
 				8083DA401E5368F500FA9B3D /* FinancialViewController.swift in Sources */,
 				8083DA3C1E5368DA00FA9B3D /* TelecomViewController.swift in Sources */,
 				8083DA441E53690300FA9B3D /* ProfileViewController.swift in Sources */,
+				801AB5A71E54AA0C00D2123E /* ASAPFloatingTextfield.swift in Sources */,
 				8083DA481E536A2800FA9B3D /* ASAPTabbarViewController.swift in Sources */,
 				80C981BF1E4D492400631E6B /* LandingViewController.swift in Sources */,
 				80C981C01E4D492400631E6B /* AppDelegate.swift in Sources */,

@@ -19,6 +19,14 @@ class LandingViewController: UIViewController {
         
         prepareView()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+        UIApplication.shared.statusBarStyle = .default
+
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -36,7 +44,7 @@ class LandingViewController: UIViewController {
     @IBAction func goToRegistration(_ sender: UIButton) {
         
         let signInOrSignUpVC = self.storyboard!.instantiateViewController(withIdentifier: "SignInOrSignUpViewController") as! SignInOrSignUpViewController
-        self.navigationController?.pushViewController(signInOrSignUpVC, animated: false)
+        self.navigationController?.pushViewController(signInOrSignUpVC, animated: true)
 
         
     }
@@ -44,7 +52,7 @@ class LandingViewController: UIViewController {
     @IBAction func goToLogin(_ sender: UIButton) {
         
         let asapTabBarController = self.storyboard!.instantiateViewController(withIdentifier: "ASAPTabbarViewController") as! ASAPTabbarViewController
-        self.navigationController?.pushViewController(asapTabBarController, animated: false)
+        self.navigationController?.pushViewController(asapTabBarController, animated: true)
 
         
     }
