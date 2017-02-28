@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "80C981A91E4D48A900631E6B"
+               BlueprintIdentifier = "80C981BB1E4D492400631E6B"
                BuildableName = "ASAP_Production.app"
                BlueprintName = "ASAP_Production"
                ReferencedContainer = "container:ASAP.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "80C981A91E4D48A900631E6B"
+            BlueprintIdentifier = "80C981BB1E4D492400631E6B"
             BuildableName = "ASAP_Production.app"
             BlueprintName = "ASAP_Production"
             ReferencedContainer = "container:ASAP.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "80C981A91E4D48A900631E6B"
+            BlueprintIdentifier = "80C981BB1E4D492400631E6B"
             BuildableName = "ASAP_Production.app"
             BlueprintName = "ASAP_Production"
             ReferencedContainer = "container:ASAP.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "80C981A91E4D48A900631E6B"
+            BlueprintIdentifier = "80C981BB1E4D492400631E6B"
             BuildableName = "ASAP_Production.app"
             BlueprintName = "ASAP_Production"
             ReferencedContainer = "container:ASAP.xcodeproj">

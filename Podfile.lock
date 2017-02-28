@@ -1,11 +1,14 @@
 PODS:
   - ACFloatingTextfield-Swift (1.0.5)
   - Alamofire (4.3.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
   - SwiftyJSON (3.0.0)
 
 DEPENDENCIES:
   - ACFloatingTextfield-Swift
   - Alamofire (from `https://github.com/Alamofire/Alamofire.git`, branch `master`)
+  - AlamofireImage (~> 3.1)
   - SwiftyJSON (= 3.0.0)
 
 EXTERNAL SOURCES:
@@ -21,8 +24,9 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   ACFloatingTextfield-Swift: c288c6a79f60e3ea8ba40c3a6bed3f9b0acea003
   Alamofire: 1f72088aff8f6b40828dadd61be2e9a31beca01e
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
   SwiftyJSON: f57b2b44bc166617372d1c70773591fe9f0f5fd4
 
-PODFILE CHECKSUM: 5fecd9ce656b8b92c4c63e8fca3b5a716beb7a47
+PODFILE CHECKSUM: 98ac22ed5b9177cf6d9ab5f927bedf12048e6dc2
 
 COCOAPODS: 1.2.0

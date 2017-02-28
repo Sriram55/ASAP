@@ -15,15 +15,13 @@ class ACFloatingTextfield: UITextField {
     
      @IBInspectable  var disableFloatingLabel : Bool = false
     
-     @IBInspectable  var lineColor : UIColor = UIColor.black
+    @IBInspectable  var lineColor : UIColor = UIColor(red: 153/256.0, green: 153/256.0, blue: 153/256.0, alpha: 1.0)
     
-     @IBInspectable  var selectedLineColor : UIColor = UIColor(red: 19/256.0, green: 141/256.0, blue: 117/256.0, alpha: 1.0)
+    @IBInspectable  var selectedLineColor : UIColor = UIColor(red: 85/256.0, green: 85/256.0, blue: 85/256.0, alpha: 1.0)
     
-     @IBInspectable  var placeHolderColor : UIColor = UIColor.lightGray
+    @IBInspectable  var placeHolderColor : UIColor = UIColor(red: 119/256.0, green: 119/256.0, blue: 119/256.0, alpha: 1.0)
     
-     @IBInspectable  var selectedPlaceHolderColor : UIColor = UIColor(red: 19/256.0, green: 141/256.0, blue: 117/256.0, alpha: 1.0)
-    
-    
+    @IBInspectable  var selectedPlaceHolderColor : UIColor = UIColor(red: 119/256.0, green: 119/256.0, blue: 119/256.0, alpha: 1.0)
     
     //MARK:- Set Text
     override var text:String?  {
@@ -95,7 +93,7 @@ class ACFloatingTextfield: UITextField {
         bottomLineView?.removeFromSuperview()
 
         //Bottom Line UIView Configuration.
-        bottomLineView = UIView(frame: CGRect(x:0, y:self.frame.height-1, width:self.frame.width, height:1))
+        bottomLineView = UIView(frame: CGRect(x:0, y:self.frame.height-3, width:self.frame.width, height:0.5))
         bottomLineView?.backgroundColor = lineColor;
         bottomLineView?.tag = 20;
         
@@ -119,7 +117,7 @@ class ACFloatingTextfield: UITextField {
         labelPlaceholder?.text = placeholderText
         labelPlaceholder?.textAlignment = self.textAlignment
         labelPlaceholder?.textColor = placeHolderColor
-        labelPlaceholder?.font = self.font
+        labelPlaceholder?.font = UIFont(name: (self.font?.fontName)!, size: 18)
         labelPlaceholder?.tag = 21
         
         if labelPlaceholder != nil {
@@ -187,7 +185,7 @@ class ACFloatingTextfield: UITextField {
 
         
         var bottomLineFrame = bottomLineView?.frame
-        bottomLineFrame?.origin.y = self.frame.height-1
+        bottomLineFrame?.origin.y = self.frame.height-3
         
         if disableFloatingLabel {
             labelPlaceholder?.isHidden = true
@@ -199,7 +197,7 @@ class ACFloatingTextfield: UITextField {
         }
 
         var labelFrame = labelPlaceholder?.frame
-        labelFrame?.size.height = 12
+        labelFrame?.size.height = 18
 
         if selected {
             
@@ -209,7 +207,7 @@ class ACFloatingTextfield: UITextField {
         } else {
         
             bottomLineView?.backgroundColor = lineColor;
-            bottomLineFrame?.origin.y = self.frame.height-1
+            bottomLineFrame?.origin.y = self.frame.height-3
             self.labelPlaceholder?.textColor = self.placeHolderColor;
 
         }
@@ -217,7 +215,7 @@ class ACFloatingTextfield: UITextField {
         UIView.animate(withDuration: 0.2, animations: {
             
             self.labelPlaceholder?.frame = labelFrame!;
-            self.labelPlaceholder?.font = UIFont(name: (self.font?.fontName)!, size: 12)
+            self.labelPlaceholder?.font = UIFont(name: (self.font?.fontName)!, size: 18)
             self.bottomLineView?.frame  =  bottomLineFrame!;
         })
 
@@ -228,7 +226,7 @@ class ACFloatingTextfield: UITextField {
     private func resignPlaceholder() -> Void {
         
         var bottomLineFrame = bottomLineView?.frame
-        bottomLineFrame?.origin.y = self.frame.height-1
+        bottomLineFrame?.origin.y = self.frame.height-3
 
         
         bottomLineView?.backgroundColor = lineColor;
@@ -248,7 +246,7 @@ class ACFloatingTextfield: UITextField {
         
         UIView.animate(withDuration: 0.2, animations: {
             self.labelPlaceholder?.frame = labelFrame;
-            self.labelPlaceholder?.font = self.font
+            self.labelPlaceholder?.font = UIFont(name: (self.font?.fontName)!, size: 18)
             self.labelPlaceholder?.textColor = self.placeHolderColor;
             self.bottomLineView?.frame  =  bottomLineFrame!;
         })

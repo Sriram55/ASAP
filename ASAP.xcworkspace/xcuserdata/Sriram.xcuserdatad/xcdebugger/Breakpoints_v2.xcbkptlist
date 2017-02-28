@@ -10,12 +10,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ASAP/SignInOrSignUpViewController.swift"
-            timestampString = "508907746.591254"
+            timestampString = "509529865.457916"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
-            landmarkName = "isValidEmail(testStr:)"
+            startingLineNumber = "208"
+            endingLineNumber = "208"
+            landmarkName = "registerUser(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ASAP/SignInOrSignUpViewController.swift"
+            timestampString = "509529904.129741"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "211"
+            endingLineNumber = "211"
+            landmarkName = "registerUser(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

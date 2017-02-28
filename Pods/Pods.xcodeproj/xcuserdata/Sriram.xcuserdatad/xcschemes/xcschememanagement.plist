@@ -14,20 +14,10 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-ASAP WatchKit App.xcscheme</key>
+		<key>AlamofireImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-ASAP WatchKit Extension.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-ASAP.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Pods-ASAPTests.xcscheme</key>
 		<dict>
@@ -39,12 +29,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-ASAP_Appstore.xcscheme</key>
+		<key>Pods-ASAP_Development.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-ASAP_Production.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ASAP_Staging.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -57,12 +52,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0BD52526BFA094B6FFB014182C54FCD2</key>
+		<key>3C343F8ADE86D9564010A54441358458</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3F7C2F747ED7EF10A96CE5A7FC7C85DB</key>
+		<key>64FEFA98E64B7A3A40F253C1579748E4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,17 +77,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>94C921124AC9D491B2F3F3B150EA5861</key>
+		<key>8B9173BDD3CCE0AD7640BDB2D0047B72</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>975E46ACFA8F47452E15ADC8F563A855</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A5D5699A2137AAE8D553F82F5E12AEC3</key>
+		<key>9EFE4C70245EE2857D336B8B9FA4E825</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -102,7 +92,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D85BDDCD2F821AD1D45E3C38E4AD35E8</key>
+		<key>E644425A2A616093A9F9879BAB0F9FC9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

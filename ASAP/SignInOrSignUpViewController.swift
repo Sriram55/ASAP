@@ -9,11 +9,12 @@
 import Foundation
 import UIKit
 
-class SignInOrSignUpViewController: UIViewController, UITextFieldDelegate
+class SignInOrSignUpViewController: UIViewController, UITextFieldDelegate, UIScrollViewDelegate
 {
     @IBOutlet weak var signInSignUpContainerScrollView: UIScrollView!
     // MARK: SignInControls
     
+    @IBOutlet weak var logoImageView: UIImageView!
     @IBOutlet weak var signInPasswordValidationLabel: UILabel!
     @IBOutlet weak var signInPasswordTextField: ACFloatingTextfield!
     @IBOutlet weak var signInEmailTextField: ACFloatingTextfield!
@@ -44,6 +45,12 @@ class SignInOrSignUpViewController: UIViewController, UITextFieldDelegate
     
     @IBOutlet var keyboardHeightLayoutConstraint: NSLayoutConstraint?
     
+    @IBOutlet weak var signUpSelectionIndicatorView: UIView!
+    @IBOutlet weak var signInSelectionIndicatorView: UIView!
+    @IBOutlet weak var titleLabel: UILabel!
+
+    var isSignInSelected: Bool!
+
     // MARK: View lifeCycle Methods
 
     override func viewDidLoad() {
@@ -81,6 +88,20 @@ class SignInOrSignUpViewController: UIViewController, UITextFieldDelegate
         self.navigationItem.hidesBackButton = true
         signInLoginBtn.layer.cornerRadius = signInLoginBtn.frame.size.height/2.0
         signUpBtn.layer.cornerRadius = signUpBtn.frame.size.height/2.0
+        self.signInSignUpContainerScrollView.contentSize = CGSize(width: self.view.frame.size.width * 2,height: self.signInSignUpContainerScrollView.frame.size.height)
+        
+        self.logoImageView?.image = self.logoImageView?.image!.withRenderingMode(.alwaysTemplate)
+        self.logoImageView?.tintColor = UIColor.white
+        
+        if (isSignInSelected!) {
+            self.signInSelectionIndicatorView.backgroundColor = UIColor().selectionIndicatorSelectedColor()
+            titleLabel.text = "Sign In"
+        }else {
+            self.signUpSelectionIndicatorView.backgroundColor = UIColor().selectionIndicatorSelectedColor()
+            self.signInSignUpContainerScrollView.contentOffset = CGPoint(x: self.view.frame.size.width,y: 0)
+            titleLabel.text = "Sign Up"
+        }
+        
         NotificationCenter.default.addObserver(self, selector: #selector(self.keyboardNotification(notification:)), name: NSNotification.Name.UIKeyboardWillChangeFrame, object: nil)
 
     }
@@ -107,10 +128,50 @@ class SignInOrSignUpViewController: UIViewController, UITextFieldDelegate
     
     @IBAction func authenticateUser(_ sender: UIButton) {
         
+        if self.signInEmailTextField.text == ""  {
+            self.signInEmailValidationLabel.text = "Enter email"
+            return
+        }
+        
+        if self.signInPasswordTextField.text == ""  {
+            self.signInPasswordValidationLabel.text = "Enter password"
+            return
+        }
+        
+        let parameters = ["_token": ASAPUserDefaults.sharedInstance.token(), "email": self.signInEmailTextField.text!,"password": self.signInPasswordTextField.text!]
+        
+        ASAPHttpClinetManager.sharedInstance.authenticateUser(parameters, success: { (_result) in
+            
+            if _result["result"]["status_code"] == "200" {
+                print("User Logged in", _result);
+                ASAPUserDefaults.sharedInstance.setUserId(_result["result"]["data"]["info"]["users_id"].string!)
+                ASAPUserDefaults.sharedInstance.setEmail(_result["result"]["data"]["info"]["email"].string!)
+                ASAPUserDefaults.sharedInstance.setMobileNumber(_result["result"]["data"]["info"]["phone_number"].string!)
+                ASAPUserDefaults.sharedInstance.setFirstName(_result["result"]["data"]["info"]["first_name"].string!)
+
+                
+                let asapTabBarController = self.storyboard!.instantiateViewController(withIdentifier: "ASAPTabbarViewController") as! ASAPTabbarViewController
+                self.navigationController?.pushViewController(asapTabBarController, animated: true)
+            }else {
+                
+                let alert = UIAlertController(title: "Error", message: _result["result"]["message"].string!, preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
+                
+            }
+            
+        }) { (Error) in
+            let alert = UIAlertController(title: "Error", message: Error.localizedDescription, preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        }
+        
+        
+        
     }
     
     @IBAction func navigateToRegistrationPage(_ sender: UIButton) {
-        
+        self.signInSignUpContainerScrollView.setContentOffset(CGPoint(x: self.view.frame.size.width, y: 0), animated: true)
     }
     
     // MARK: SignUp
@@ -118,10 +179,61 @@ class SignInOrSignUpViewController: UIViewController, UITextFieldDelegate
     
     @IBAction func registerUser(_ sender: UIButton) {
         
+        if self.signUpUsernameTextField.text == ""  {
+            self.signUpUsernameValidationLabel.text = "Enter your name"
+            return
+        }
+        
+        if self.signUpEmailTextField.text == ""  {
+            self.signUpEmailValidationLabel.text = "Enter email"
+            return
+        }
+        
+        if self.signUpPasswordTextField.text == ""  {
+            self.signUpPasswordValidationLabel.text = "Enter password"
+            return
+        }
+        
+        if self.signUpMobileNumberTextField.text == ""  {
+            self.signUpMobileNumberValidationLabel.text = "Enter mobile"
+            return
+        }
+        
+        let parameters = ["_token": ASAPUserDefaults.sharedInstance.token(), "email": self.signUpEmailTextField.text!,"password": self.signUpPasswordTextField.text!, "phone_number" : self.signUpMobileNumberTextField.text!, "first_name": self.signUpUsernameTextField.text!, "last_name" : ""]
+        
+        ASAPHttpClinetManager.sharedInstance.registerUser(parameters, success: { (_result) in
+            
+            print("Result is ", _result)
+            
+            if _result["result"]["status_code"] == "200" {
+                
+                
+                ASAPUserDefaults.sharedInstance.setUserId(_result["result"]["data"]["info"]["users_id"].string!)
+                ASAPUserDefaults.sharedInstance.setEmail(_result["result"]["data"]["info"]["email"].string!)
+                ASAPUserDefaults.sharedInstance.setMobileNumber(_result["result"]["data"]["info"]["phone_number"].string!)
+                ASAPUserDefaults.sharedInstance.setFirstName(_result["result"]["data"]["info"]["first_name"].string!)
+
+                print("User Registered in", _result);
+                let verificationCodeVC = self.storyboard!.instantiateViewController(withIdentifier: "VerificationCodeViewController") as! VerificationCodeViewController
+                self.navigationController?.pushViewController(verificationCodeVC, animated: true)
+            }else {
+                
+                let alert = UIAlertController(title: "Error", message: _result["result"]["message"].string!, preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
+                
+            }
+            
+        }) { (Error) in
+            let alert = UIAlertController(title: "Error", message: Error.localizedDescription, preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        }
+        
     }
     
     @IBAction func navigateToLoginPage(_ sender: UIButton) {
-        
+        self.signInSignUpContainerScrollView.setContentOffset(CGPoint(x: 0, y: 0), animated: true)
     }
     
     // MARK: Keyboard Listeners
@@ -172,6 +284,8 @@ class SignInOrSignUpViewController: UIViewController, UITextFieldDelegate
     @IBAction func textFieldDidChange(_ textField: UITextField) {
         
         switch textField {
+            
+        // SignIn Fields
         case signInEmailTextField:
             
             self.signInEmailValidationLabel.text = isValidEmail(testStr: textField.text!) ? "" : "Invalid email"
@@ -181,6 +295,23 @@ class SignInOrSignUpViewController: UIViewController, UITextFieldDelegate
         case signInPasswordTextField:
             
            self.signInPasswordValidationLabel.text = ((self.signInPasswordTextField.text?.characters.count)! < 5) ? "Min. of 5 characters" : ((self.signInPasswordTextField.text?.characters.count)! >= 5 && (self.signInPasswordTextField.text?.characters.count)! < 8) ? "Max. of 8 characters" : ""
+            break
+            
+        // SignUp Fields
+        case signUpEmailTextField:
+            
+            self.signUpEmailValidationLabel.text = isValidEmail(testStr: textField.text!) ? "" : "Invalid email"
+            
+            break
+    
+        case signUpPasswordTextField:
+            
+            self.signUpPasswordValidationLabel.text = ((self.signUpPasswordTextField.text?.characters.count)! < 5) ? "Min. of 5 characters" : ((self.signUpPasswordTextField.text?.characters.count)! >= 5 && (self.signUpPasswordTextField.text?.characters.count)! < 8) ? "Max. of 8 characters" : ""
+            break
+
+        case signUpConfirmPasswordTextField:
+            
+            self.signUpConfirmPasswordValidationLabel.text = (self.signUpConfirmPasswordTextField.text == self.signUpPasswordTextField.text) ? "" : "Password doesn't matched"
             break
             
         default: break
@@ -193,7 +324,8 @@ class SignInOrSignUpViewController: UIViewController, UITextFieldDelegate
     public func textFieldDidEndEditing(_ textField: UITextField, reason: UITextFieldDidEndEditingReason) {
         
         switch textField {
-            
+
+        // SignIn Fields
         case signInEmailTextField:
             self.signInEmailValidationLabel.text = ""
             break
@@ -202,10 +334,47 @@ class SignInOrSignUpViewController: UIViewController, UITextFieldDelegate
             self.signInPasswordValidationLabel.text = ""
             break
             
+        // SignUp Fields
+        case signUpEmailTextField:
+            self.signUpEmailValidationLabel.text = ""
+            
+            break
+            
+        case signUpPasswordTextField:
+            self.signUpPasswordValidationLabel.text = ""
+            
+            break
+            
+        case signUpConfirmPasswordTextField:
+            self.signUpConfirmPasswordValidationLabel.text = ""
+            
+            break
+            
         default:
             break
         }
         
+    }
+    
+    // MARK: ScrollView Delegate Methods
+    
+    public func scrollViewDidScroll(_ scrollView: UIScrollView) // any offset changes
+    {
+     
+       let currentPage = round(self.signInSignUpContainerScrollView.contentOffset.x/self.signInSignUpContainerScrollView.bounds.size.width)
+        
+        if currentPage == 0 {
+            self.signInSelectionIndicatorView.backgroundColor = UIColor().selectionIndicatorSelectedColor()
+            self.signUpSelectionIndicatorView.backgroundColor = UIColor().selectionIndicatorNotSelectedColor()
+            titleLabel.text = "Sign In"
+
+        } else {
+            self.signInSelectionIndicatorView.backgroundColor = UIColor().selectionIndicatorNotSelectedColor()
+            self.signUpSelectionIndicatorView.backgroundColor = UIColor().selectionIndicatorSelectedColor()
+            titleLabel.text = "Sign Up"
+
+        }
+
     }
     
 }

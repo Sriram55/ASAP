@@ -14,17 +14,17 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>ASAP.xcscheme</key>
+		<key>ASAP_Development.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>ASAP_Appstore.xcscheme</key>
+		<key>ASAP_Production.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>ASAP_Production.xcscheme</key>
+		<key>ASAP_Staging.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>

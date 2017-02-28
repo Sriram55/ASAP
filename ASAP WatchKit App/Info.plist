@@ -26,7 +26,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>com.asap.ASAP</string>
+	<string>com.goasap.asap</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>

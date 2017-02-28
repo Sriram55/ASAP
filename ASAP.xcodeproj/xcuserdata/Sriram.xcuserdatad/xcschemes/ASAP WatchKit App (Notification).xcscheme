@@ -29,8 +29,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "80C9814E1E4D451B00631E6B"
-               BuildableName = "ASAP.app"
-               BlueprintName = "ASAP"
+               BuildableName = "ASAP_Development.app"
+               BlueprintName = "ASAP_Development"
                ReferencedContainer = "container:ASAP.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

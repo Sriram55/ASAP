@@ -15,13 +15,13 @@ class ACFloatingTextfield: UITextField {
     
      @IBInspectable  var disableFloatingLabel : Bool = false
     
-     @IBInspectable  var lineColor : UIColor = UIColor.black
+     @IBInspectable  var lineColor : UIColor = UIColor(red: 153/256.0, green: 153/256.0, blue: 153/256.0, alpha: 1.0)
     
-     @IBInspectable  var selectedLineColor : UIColor = UIColor(red: 19/256.0, green: 141/256.0, blue: 117/256.0, alpha: 1.0)
+     @IBInspectable  var selectedLineColor : UIColor = UIColor(red: 85/256.0, green: 85/256.0, blue: 85/256.0, alpha: 1.0)
     
-     @IBInspectable  var placeHolderColor : UIColor = UIColor.lightGray
+     @IBInspectable  var placeHolderColor : UIColor = UIColor(red: 119/256.0, green: 119/256.0, blue: 119/256.0, alpha: 1.0)
     
-     @IBInspectable  var selectedPlaceHolderColor : UIColor = UIColor(red: 19/256.0, green: 141/256.0, blue: 117/256.0, alpha: 1.0)
+     @IBInspectable  var selectedPlaceHolderColor : UIColor = UIColor(red: 119/256.0, green: 119/256.0, blue: 119/256.0, alpha: 1.0)
     
     
     

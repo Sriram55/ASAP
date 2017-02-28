@@ -11,29 +11,70 @@
 		09DB02B53F0A9A4290A92C32 /* Pods_ASAPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAB28D92CBDD771B9C21A88 /* Pods_ASAPTests.framework */; };
 		364DBAD40329DF9317566D3B /* Pods_ASAPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90318BD2428A3EDB4BFE342F /* Pods_ASAPUITests.framework */; };
 		61F69C2E7337160FCEC79914 /* Pods_ASAP_Production.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C345FEF2D8C9B60C457E8A54 /* Pods_ASAP_Production.framework */; };
-		801AB5A01E54A14B00D2123E /* ACFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801AB59F1E54A14B00D2123E /* ACFloatingTextfield.swift */; };
-		801AB5A11E54A14B00D2123E /* ACFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801AB59F1E54A14B00D2123E /* ACFloatingTextfield.swift */; };
-		801AB5A21E54A14B00D2123E /* ACFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801AB59F1E54A14B00D2123E /* ACFloatingTextfield.swift */; };
-		801AB5A51E54AA0C00D2123E /* ASAPFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801AB5A41E54AA0C00D2123E /* ASAPFloatingTextfield.swift */; };
-		801AB5A61E54AA0C00D2123E /* ASAPFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801AB5A41E54AA0C00D2123E /* ASAPFloatingTextfield.swift */; };
-		801AB5A71E54AA0C00D2123E /* ASAPFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801AB5A41E54AA0C00D2123E /* ASAPFloatingTextfield.swift */; };
+		678E68FF6E2B1C591B74040C /* Pods_ASAP_Staging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26142A679A3CD23FB8223C2A /* Pods_ASAP_Staging.framework */; };
+		800F2F511E5B6BE400E124AF /* ASAPHttpClinetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800F2F501E5B6BE400E124AF /* ASAPHttpClinetManager.swift */; };
+		800F2F521E5B6BE400E124AF /* ASAPHttpClinetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800F2F501E5B6BE400E124AF /* ASAPHttpClinetManager.swift */; };
+		800F2F531E5B6BE400E124AF /* ASAPHttpClinetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800F2F501E5B6BE400E124AF /* ASAPHttpClinetManager.swift */; };
+		80172E131E63D93B0074614E /* CompaniesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80172E121E63D93B0074614E /* CompaniesTableViewCell.swift */; };
+		80172E141E63D93B0074614E /* CompaniesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80172E121E63D93B0074614E /* CompaniesTableViewCell.swift */; };
+		80172E151E63D93B0074614E /* CompaniesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80172E121E63D93B0074614E /* CompaniesTableViewCell.swift */; };
+		80172E171E63D9560074614E /* CompaniesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80172E161E63D9560074614E /* CompaniesTableViewCell.xib */; };
+		80172E181E63D9560074614E /* CompaniesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80172E161E63D9560074614E /* CompaniesTableViewCell.xib */; };
+		80172E191E63D9560074614E /* CompaniesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80172E161E63D9560074614E /* CompaniesTableViewCell.xib */; };
+		80172E1D1E63DAEA0074614E /* CompaniesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80172E1C1E63DAEA0074614E /* CompaniesListViewController.swift */; };
+		80172E1E1E63DAEA0074614E /* CompaniesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80172E1C1E63DAEA0074614E /* CompaniesListViewController.swift */; };
+		80172E1F1E63DAEA0074614E /* CompaniesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80172E1C1E63DAEA0074614E /* CompaniesListViewController.swift */; };
 		802D4D961E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D941E52092400E2DEC4 /* MyriadPro-Regular.ttf */; };
 		802D4D971E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D941E52092400E2DEC4 /* MyriadPro-Regular.ttf */; };
 		802D4D981E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D941E52092400E2DEC4 /* MyriadPro-Regular.ttf */; };
 		802D4D991E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D941E52092400E2DEC4 /* MyriadPro-Regular.ttf */; };
-		802D4D9A1E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D941E52092400E2DEC4 /* MyriadPro-Regular.ttf */; };
-		802D4D9B1E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D941E52092400E2DEC4 /* MyriadPro-Regular.ttf */; };
 		802D4D9C1E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D951E52092400E2DEC4 /* MyriadPro-Semibold.ttf */; };
 		802D4D9D1E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D951E52092400E2DEC4 /* MyriadPro-Semibold.ttf */; };
 		802D4D9E1E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D951E52092400E2DEC4 /* MyriadPro-Semibold.ttf */; };
 		802D4D9F1E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D951E52092400E2DEC4 /* MyriadPro-Semibold.ttf */; };
-		802D4DA01E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D951E52092400E2DEC4 /* MyriadPro-Semibold.ttf */; };
-		802D4DA11E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 802D4D951E52092400E2DEC4 /* MyriadPro-Semibold.ttf */; };
 		802D4DA91E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802D4DA81E520F5800E2DEC4 /* UIColor+ASAPHelper.swift */; };
 		802D4DAA1E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802D4DA81E520F5800E2DEC4 /* UIColor+ASAPHelper.swift */; };
 		802D4DAB1E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802D4DA81E520F5800E2DEC4 /* UIColor+ASAPHelper.swift */; };
 		802D4DAC1E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802D4DA81E520F5800E2DEC4 /* UIColor+ASAPHelper.swift */; };
-		802D4DAD1E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802D4DA81E520F5800E2DEC4 /* UIColor+ASAPHelper.swift */; };
+		803F54CA1E6484D80005C81E /* ServiceProvidersPlansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803F54C91E6484D80005C81E /* ServiceProvidersPlansViewController.swift */; };
+		803F54CB1E6484D80005C81E /* ServiceProvidersPlansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803F54C91E6484D80005C81E /* ServiceProvidersPlansViewController.swift */; };
+		803F54CC1E6484D80005C81E /* ServiceProvidersPlansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803F54C91E6484D80005C81E /* ServiceProvidersPlansViewController.swift */; };
+		808397BF1E619A6C001D2921 /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397BE1E619A6C001D2921 /* BannerCollectionViewCell.swift */; };
+		808397C01E619A6C001D2921 /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397BE1E619A6C001D2921 /* BannerCollectionViewCell.swift */; };
+		808397C11E619A6C001D2921 /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397BE1E619A6C001D2921 /* BannerCollectionViewCell.swift */; };
+		808397C31E619A86001D2921 /* BannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 808397C21E619A86001D2921 /* BannerCollectionViewCell.xib */; };
+		808397C41E619A86001D2921 /* BannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 808397C21E619A86001D2921 /* BannerCollectionViewCell.xib */; };
+		808397C51E619A86001D2921 /* BannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 808397C21E619A86001D2921 /* BannerCollectionViewCell.xib */; };
+		808397C71E61A026001D2921 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397C61E61A026001D2921 /* MenuCollectionViewCell.swift */; };
+		808397C81E61A026001D2921 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397C61E61A026001D2921 /* MenuCollectionViewCell.swift */; };
+		808397C91E61A026001D2921 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397C61E61A026001D2921 /* MenuCollectionViewCell.swift */; };
+		808397CB1E61B435001D2921 /* MenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 808397CA1E61B435001D2921 /* MenuCollectionViewCell.xib */; };
+		808397CC1E61B435001D2921 /* MenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 808397CA1E61B435001D2921 /* MenuCollectionViewCell.xib */; };
+		808397CD1E61B435001D2921 /* MenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 808397CA1E61B435001D2921 /* MenuCollectionViewCell.xib */; };
+		808397D01E61F43F001D2921 /* ServiceSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397CF1E61F43F001D2921 /* ServiceSelectionViewController.swift */; };
+		808397D11E61F43F001D2921 /* ServiceSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397CF1E61F43F001D2921 /* ServiceSelectionViewController.swift */; };
+		808397D21E61F43F001D2921 /* ServiceSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397CF1E61F43F001D2921 /* ServiceSelectionViewController.swift */; };
+		808397D41E61F7FF001D2921 /* ServiceTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397D31E61F7FF001D2921 /* ServiceTypeCollectionViewCell.swift */; };
+		808397D51E61F7FF001D2921 /* ServiceTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397D31E61F7FF001D2921 /* ServiceTypeCollectionViewCell.swift */; };
+		808397D61E61F7FF001D2921 /* ServiceTypeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397D31E61F7FF001D2921 /* ServiceTypeCollectionViewCell.swift */; };
+		808397D81E61F813001D2921 /* ServiceTypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 808397D71E61F813001D2921 /* ServiceTypeCollectionViewCell.xib */; };
+		808397D91E61F813001D2921 /* ServiceTypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 808397D71E61F813001D2921 /* ServiceTypeCollectionViewCell.xib */; };
+		808397DA1E61F813001D2921 /* ServiceTypeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 808397D71E61F813001D2921 /* ServiceTypeCollectionViewCell.xib */; };
+		808397DC1E61FDA1001D2921 /* SelectLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397DB1E61FDA1001D2921 /* SelectLocationViewController.swift */; };
+		808397DD1E61FDA1001D2921 /* SelectLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397DB1E61FDA1001D2921 /* SelectLocationViewController.swift */; };
+		808397DE1E61FDA1001D2921 /* SelectLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397DB1E61FDA1001D2921 /* SelectLocationViewController.swift */; };
+		808397E01E61FE35001D2921 /* SelectLocationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397DF1E61FE35001D2921 /* SelectLocationCollectionViewCell.swift */; };
+		808397E11E61FE35001D2921 /* SelectLocationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397DF1E61FE35001D2921 /* SelectLocationCollectionViewCell.swift */; };
+		808397E21E61FE35001D2921 /* SelectLocationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397DF1E61FE35001D2921 /* SelectLocationCollectionViewCell.swift */; };
+		808397E41E61FE40001D2921 /* SelectLocationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 808397E31E61FE40001D2921 /* SelectLocationCollectionViewCell.xib */; };
+		808397E51E61FE40001D2921 /* SelectLocationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 808397E31E61FE40001D2921 /* SelectLocationCollectionViewCell.xib */; };
+		808397E61E61FE40001D2921 /* SelectLocationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 808397E31E61FE40001D2921 /* SelectLocationCollectionViewCell.xib */; };
+		808397EA1E620687001D2921 /* HMSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397E81E620687001D2921 /* HMSegmentedControl.swift */; };
+		808397EB1E620687001D2921 /* HMSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397E81E620687001D2921 /* HMSegmentedControl.swift */; };
+		808397EC1E620687001D2921 /* HMSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397E81E620687001D2921 /* HMSegmentedControl.swift */; };
+		808397EE1E62085E001D2921 /* SelectServiceProvideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397ED1E62085E001D2921 /* SelectServiceProvideViewController.swift */; };
+		808397EF1E62085E001D2921 /* SelectServiceProvideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397ED1E62085E001D2921 /* SelectServiceProvideViewController.swift */; };
+		808397F01E62085E001D2921 /* SelectServiceProvideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808397ED1E62085E001D2921 /* SelectServiceProvideViewController.swift */; };
 		8083DA321E5368BA00FA9B3D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA311E5368BA00FA9B3D /* HomeViewController.swift */; };
 		8083DA331E5368BA00FA9B3D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA311E5368BA00FA9B3D /* HomeViewController.swift */; };
 		8083DA341E5368BA00FA9B3D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA311E5368BA00FA9B3D /* HomeViewController.swift */; };
@@ -52,9 +93,21 @@
 		8083DA461E536A2800FA9B3D /* ASAPTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA451E536A2800FA9B3D /* ASAPTabbarViewController.swift */; };
 		8083DA471E536A2800FA9B3D /* ASAPTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA451E536A2800FA9B3D /* ASAPTabbarViewController.swift */; };
 		8083DA481E536A2800FA9B3D /* ASAPTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8083DA451E536A2800FA9B3D /* ASAPTabbarViewController.swift */; };
+		808C30291E5CA58F00AF3315 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808C30281E5CA58F00AF3315 /* APIConstants.swift */; };
+		808C302A1E5CA58F00AF3315 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808C30281E5CA58F00AF3315 /* APIConstants.swift */; };
+		808C302B1E5CA58F00AF3315 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808C30281E5CA58F00AF3315 /* APIConstants.swift */; };
+		808C302D1E5CB04100AF3315 /* ACFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808C302C1E5CB04100AF3315 /* ACFloatingTextfield.swift */; };
+		808C302E1E5CB04100AF3315 /* ACFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808C302C1E5CB04100AF3315 /* ACFloatingTextfield.swift */; };
+		808C302F1E5CB04100AF3315 /* ACFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808C302C1E5CB04100AF3315 /* ACFloatingTextfield.swift */; };
 		809640631E52222E005C02B8 /* SignInOrSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809640621E52222E005C02B8 /* SignInOrSignUpViewController.swift */; };
 		809640641E52222E005C02B8 /* SignInOrSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809640621E52222E005C02B8 /* SignInOrSignUpViewController.swift */; };
 		809640651E52222E005C02B8 /* SignInOrSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809640621E52222E005C02B8 /* SignInOrSignUpViewController.swift */; };
+		80BFC17C1E62A96C00CA0CFA /* ServiceProviderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BFC17B1E62A96C00CA0CFA /* ServiceProviderCollectionViewCell.swift */; };
+		80BFC17D1E62A96C00CA0CFA /* ServiceProviderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BFC17B1E62A96C00CA0CFA /* ServiceProviderCollectionViewCell.swift */; };
+		80BFC17E1E62A96C00CA0CFA /* ServiceProviderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BFC17B1E62A96C00CA0CFA /* ServiceProviderCollectionViewCell.swift */; };
+		80BFC1801E62A97B00CA0CFA /* ServiceProviderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80BFC17F1E62A97B00CA0CFA /* ServiceProviderCollectionViewCell.xib */; };
+		80BFC1811E62A97B00CA0CFA /* ServiceProviderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80BFC17F1E62A97B00CA0CFA /* ServiceProviderCollectionViewCell.xib */; };
+		80BFC1821E62A97B00CA0CFA /* ServiceProviderCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80BFC17F1E62A97B00CA0CFA /* ServiceProviderCollectionViewCell.xib */; };
 		80C981531E4D451D00631E6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C981521E4D451D00631E6B /* AppDelegate.swift */; };
 		80C981551E4D451D00631E6B /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C981541E4D451D00631E6B /* LandingViewController.swift */; };
 		80C981581E4D451D00631E6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C981561E4D451D00631E6B /* Main.storyboard */; };
@@ -62,29 +115,40 @@
 		80C9815D1E4D451D00631E6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C9815B1E4D451D00631E6B /* LaunchScreen.storyboard */; };
 		80C981681E4D451E00631E6B /* ASAPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C981671E4D451E00631E6B /* ASAPTests.swift */; };
 		80C981731E4D451E00631E6B /* ASAPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C981721E4D451E00631E6B /* ASAPUITests.swift */; };
-		80C981781E4D451E00631E6B /* ASAP WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 80C981771E4D451E00631E6B /* ASAP WatchKit App.app */; };
-		80C9817E1E4D451E00631E6B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C9817C1E4D451E00631E6B /* Interface.storyboard */; };
-		80C981801E4D451E00631E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C9817F1E4D451E00631E6B /* Assets.xcassets */; };
-		80C981871E4D451E00631E6B /* ASAP WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 80C981861E4D451E00631E6B /* ASAP WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		80C9818E1E4D451E00631E6B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C9818D1E4D451E00631E6B /* InterfaceController.swift */; };
-		80C981901E4D451E00631E6B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C9818F1E4D451E00631E6B /* ExtensionDelegate.swift */; };
-		80C981921E4D451E00631E6B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C981911E4D451E00631E6B /* NotificationController.swift */; };
-		80C981941E4D451E00631E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C981931E4D451E00631E6B /* Assets.xcassets */; };
 		80C981AD1E4D48A900631E6B /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C981541E4D451D00631E6B /* LandingViewController.swift */; };
 		80C981AE1E4D48A900631E6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C981521E4D451D00631E6B /* AppDelegate.swift */; };
 		80C981B11E4D48A900631E6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C9815B1E4D451D00631E6B /* LaunchScreen.storyboard */; };
 		80C981B21E4D48A900631E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C981591E4D451D00631E6B /* Assets.xcassets */; };
 		80C981B31E4D48A900631E6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C981561E4D451D00631E6B /* Main.storyboard */; };
-		80C981B51E4D48A900631E6B /* ASAP WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 80C981771E4D451E00631E6B /* ASAP WatchKit App.app */; };
 		80C981BF1E4D492400631E6B /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C981541E4D451D00631E6B /* LandingViewController.swift */; };
 		80C981C01E4D492400631E6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C981521E4D451D00631E6B /* AppDelegate.swift */; };
 		80C981C31E4D492400631E6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C9815B1E4D451D00631E6B /* LaunchScreen.storyboard */; };
 		80C981C41E4D492400631E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80C981591E4D451D00631E6B /* Assets.xcassets */; };
 		80C981C51E4D492400631E6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80C981561E4D451D00631E6B /* Main.storyboard */; };
-		80C981C71E4D492400631E6B /* ASAP WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 80C981771E4D451E00631E6B /* ASAP WatchKit App.app */; };
-		8170F61865D2A62C8D10D6A6 /* Pods_ASAP_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE51C19D100213AA761B8D9E /* Pods_ASAP_WatchKit_App.framework */; };
+		80E29FBF1E561AA100B3C856 /* VerificationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E29FBE1E561AA100B3C856 /* VerificationCodeViewController.swift */; };
+		80E29FC01E561AA100B3C856 /* VerificationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E29FBE1E561AA100B3C856 /* VerificationCodeViewController.swift */; };
+		80E29FC11E561AA100B3C856 /* VerificationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E29FBE1E561AA100B3C856 /* VerificationCodeViewController.swift */; };
+		80E2C54F1E5CCAD90092E70C /* ASAPUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E2C54E1E5CCAD90092E70C /* ASAPUserDefaults.swift */; };
+		80E2C5501E5CCAD90092E70C /* ASAPUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E2C54E1E5CCAD90092E70C /* ASAPUserDefaults.swift */; };
+		80E2C5511E5CCAD90092E70C /* ASAPUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E2C54E1E5CCAD90092E70C /* ASAPUserDefaults.swift */; };
+		80E650761E652AFB00047FAD /* ServiceProviderPlansCollectionViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E650751E652AFB00047FAD /* ServiceProviderPlansCollectionViewHeaderCell.swift */; };
+		80E650771E652AFB00047FAD /* ServiceProviderPlansCollectionViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E650751E652AFB00047FAD /* ServiceProviderPlansCollectionViewHeaderCell.swift */; };
+		80E650781E652AFB00047FAD /* ServiceProviderPlansCollectionViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E650751E652AFB00047FAD /* ServiceProviderPlansCollectionViewHeaderCell.swift */; };
+		80E6507A1E652B4100047FAD /* ServiceProviderPlansCollectionViewPlanTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E650791E652B4100047FAD /* ServiceProviderPlansCollectionViewPlanTitleCell.swift */; };
+		80E6507B1E652B4100047FAD /* ServiceProviderPlansCollectionViewPlanTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E650791E652B4100047FAD /* ServiceProviderPlansCollectionViewPlanTitleCell.swift */; };
+		80E6507C1E652B4100047FAD /* ServiceProviderPlansCollectionViewPlanTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E650791E652B4100047FAD /* ServiceProviderPlansCollectionViewPlanTitleCell.swift */; };
+		80E6507E1E652B6300047FAD /* ServiceProviderPlansCollectionViewPlanTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80E6507D1E652B6300047FAD /* ServiceProviderPlansCollectionViewPlanTitleCell.xib */; };
+		80E6507F1E652B6300047FAD /* ServiceProviderPlansCollectionViewPlanTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80E6507D1E652B6300047FAD /* ServiceProviderPlansCollectionViewPlanTitleCell.xib */; };
+		80E650801E652B6300047FAD /* ServiceProviderPlansCollectionViewPlanTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80E6507D1E652B6300047FAD /* ServiceProviderPlansCollectionViewPlanTitleCell.xib */; };
+		80E650821E652B7600047FAD /* ServiceProviderPlansCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E650811E652B7600047FAD /* ServiceProviderPlansCollectionViewCell.swift */; };
+		80E650831E652B7600047FAD /* ServiceProviderPlansCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E650811E652B7600047FAD /* ServiceProviderPlansCollectionViewCell.swift */; };
+		80E650841E652B7600047FAD /* ServiceProviderPlansCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E650811E652B7600047FAD /* ServiceProviderPlansCollectionViewCell.swift */; };
+		80E650861E652B8400047FAD /* ServiceProviderPlansCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80E650851E652B8400047FAD /* ServiceProviderPlansCollectionViewCell.xib */; };
+		80E650871E652B8400047FAD /* ServiceProviderPlansCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80E650851E652B8400047FAD /* ServiceProviderPlansCollectionViewCell.xib */; };
+		80E650881E652B8400047FAD /* ServiceProviderPlansCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80E650851E652B8400047FAD /* ServiceProviderPlansCollectionViewCell.xib */; };
+		93F4B070696C29EAB1AB9621 /* Pods_ASAP_Development.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E19D4C5FE0B301B1A9F420 /* Pods_ASAP_Development.framework */; };
 		A215A5D3DE7CE4613AD4CF42 /* Pods_ASAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42373D2133D98842910E017D /* Pods_ASAP.framework */; };
-		FD04994035599DE2D0214E56 /* Pods_ASAP_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 903AB9610DB11D6BAA6EAC60 /* Pods_ASAP_WatchKit_Extension.framework */; };
+		D6188353DC3729FB5B052CC7 /* Pods_ASAP_Production.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C345FEF2D8C9B60C457E8A54 /* Pods_ASAP_Production.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,55 +166,15 @@
 			remoteGlobalIDString = 80C9814E1E4D451B00631E6B;
 			remoteInfo = ASAP;
 		};
-		80C981791E4D451E00631E6B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 80C981471E4D451B00631E6B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80C981761E4D451E00631E6B;
-			remoteInfo = "ASAP WatchKit App";
-		};
-		80C981881E4D451E00631E6B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 80C981471E4D451B00631E6B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80C981851E4D451E00631E6B;
-			remoteInfo = "ASAP WatchKit Extension";
-		};
-		80C981AB1E4D48A900631E6B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 80C981471E4D451B00631E6B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80C981761E4D451E00631E6B;
-			remoteInfo = "ASAP WatchKit App";
-		};
-		80C981BD1E4D492400631E6B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 80C981471E4D451B00631E6B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80C981761E4D451E00631E6B;
-			remoteInfo = "ASAP WatchKit App";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		80C9819B1E4D451E00631E6B /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				80C981871E4D451E00631E6B /* ASAP WatchKit Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		80C9819F1E4D451E00631E6B /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				80C981781E4D451E00631E6B /* ASAP WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,7 +185,6 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				80C981B51E4D48A900631E6B /* ASAP WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,7 +195,6 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				80C981C71E4D492400631E6B /* ASAP WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,27 +206,51 @@
 		144EAD956FDA56EB105FB216 /* Pods_ASAP_Appstore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASAP_Appstore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		170459BC52CFC33C700458A4 /* Pods-ASAPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASAPUITests/Pods-ASAPUITests.release.xcconfig"; sourceTree = "<group>"; };
 		17AF3B4179978615FC369BD6 /* Pods-ASAP_Appstore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP_Appstore.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP_Appstore/Pods-ASAP_Appstore.release.xcconfig"; sourceTree = "<group>"; };
+		1CA5C144D00F4329CDE8216D /* Pods-ASAP_Development.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP_Development.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP_Development/Pods-ASAP_Development.debug.xcconfig"; sourceTree = "<group>"; };
 		24B250A54E888723A6E1FF8E /* Pods-ASAP_Production.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP_Production.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP_Production/Pods-ASAP_Production.debug.xcconfig"; sourceTree = "<group>"; };
+		26142A679A3CD23FB8223C2A /* Pods_ASAP_Staging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASAP_Staging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C22EB82E71721B91C5807C8 /* Pods-ASAP WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP WatchKit App/Pods-ASAP WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
 		3A96AF606869AD7558C232FB /* Pods-ASAPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASAPTests/Pods-ASAPTests.release.xcconfig"; sourceTree = "<group>"; };
 		42373D2133D98842910E017D /* Pods_ASAP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASAP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E5C13C5F1E58C1B4DD31FE /* Pods-ASAP_Staging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP_Staging.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP_Staging/Pods-ASAP_Staging.debug.xcconfig"; sourceTree = "<group>"; };
 		7359C4D1FB4AA4B178992C69 /* Pods-ASAP_Appstore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP_Appstore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP_Appstore/Pods-ASAP_Appstore.debug.xcconfig"; sourceTree = "<group>"; };
 		766E0823C7254B155E14D126 /* Pods-ASAPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASAPUITests/Pods-ASAPUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		77C91B7078B944B115A089BC /* Pods-ASAP WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP WatchKit App/Pods-ASAP WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
 		7BF64EFD0147E835026224DD /* Pods-ASAP WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP WatchKit Extension/Pods-ASAP WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
-		801AB59F1E54A14B00D2123E /* ACFloatingTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACFloatingTextfield.swift; sourceTree = "<group>"; };
-		801AB5A41E54AA0C00D2123E /* ASAPFloatingTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASAPFloatingTextfield.swift; sourceTree = "<group>"; };
+		800F2F501E5B6BE400E124AF /* ASAPHttpClinetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASAPHttpClinetManager.swift; sourceTree = "<group>"; };
+		80172E121E63D93B0074614E /* CompaniesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompaniesTableViewCell.swift; sourceTree = "<group>"; };
+		80172E161E63D9560074614E /* CompaniesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompaniesTableViewCell.xib; sourceTree = "<group>"; };
+		80172E1C1E63DAEA0074614E /* CompaniesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompaniesListViewController.swift; sourceTree = "<group>"; };
 		802D4D941E52092400E2DEC4 /* MyriadPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Regular.ttf"; sourceTree = "<group>"; };
 		802D4D951E52092400E2DEC4 /* MyriadPro-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyriadPro-Semibold.ttf"; sourceTree = "<group>"; };
 		802D4DA81E520F5800E2DEC4 /* UIColor+ASAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ASAPHelper.swift"; sourceTree = "<group>"; };
+		803F54C91E6484D80005C81E /* ServiceProvidersPlansViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProvidersPlansViewController.swift; sourceTree = "<group>"; };
+		808004931E5E3D68004F53F3 /* ASAP_Development.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ASAP_Development.entitlements; sourceTree = "<group>"; };
+		808397BE1E619A6C001D2921 /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		808397C21E619A86001D2921 /* BannerCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BannerCollectionViewCell.xib; sourceTree = "<group>"; };
+		808397C61E61A026001D2921 /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		808397CA1E61B435001D2921 /* MenuCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuCollectionViewCell.xib; sourceTree = "<group>"; };
+		808397CF1E61F43F001D2921 /* ServiceSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceSelectionViewController.swift; sourceTree = "<group>"; };
+		808397D31E61F7FF001D2921 /* ServiceTypeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTypeCollectionViewCell.swift; sourceTree = "<group>"; };
+		808397D71E61F813001D2921 /* ServiceTypeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServiceTypeCollectionViewCell.xib; sourceTree = "<group>"; };
+		808397DB1E61FDA1001D2921 /* SelectLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectLocationViewController.swift; sourceTree = "<group>"; };
+		808397DF1E61FE35001D2921 /* SelectLocationCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectLocationCollectionViewCell.swift; sourceTree = "<group>"; };
+		808397E31E61FE40001D2921 /* SelectLocationCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectLocationCollectionViewCell.xib; sourceTree = "<group>"; };
+		808397E81E620687001D2921 /* HMSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSegmentedControl.swift; sourceTree = "<group>"; };
+		808397E91E620687001D2921 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		808397ED1E62085E001D2921 /* SelectServiceProvideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectServiceProvideViewController.swift; sourceTree = "<group>"; };
 		8083DA311E5368BA00FA9B3D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8083DA351E5368CB00FA9B3D /* DTHViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTHViewController.swift; sourceTree = "<group>"; };
 		8083DA391E5368DA00FA9B3D /* TelecomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelecomViewController.swift; sourceTree = "<group>"; };
 		8083DA3D1E5368F500FA9B3D /* FinancialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialViewController.swift; sourceTree = "<group>"; };
 		8083DA411E53690300FA9B3D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		8083DA451E536A2800FA9B3D /* ASAPTabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASAPTabbarViewController.swift; sourceTree = "<group>"; };
+		808C30281E5CA58F00AF3315 /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		808C302C1E5CB04100AF3315 /* ACFloatingTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACFloatingTextfield.swift; sourceTree = "<group>"; };
 		809640621E52222E005C02B8 /* SignInOrSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInOrSignUpViewController.swift; sourceTree = "<group>"; };
-		80C9814F1E4D451D00631E6B /* ASAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80BFC17B1E62A96C00CA0CFA /* ServiceProviderCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProviderCollectionViewCell.swift; sourceTree = "<group>"; };
+		80BFC17F1E62A97B00CA0CFA /* ServiceProviderCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServiceProviderCollectionViewCell.xib; sourceTree = "<group>"; };
+		80C9814F1E4D451D00631E6B /* ASAP_Development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASAP_Development.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C981521E4D451D00631E6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80C981541E4D451D00631E6B /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		80C981571E4D451D00631E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -217,25 +263,33 @@
 		80C9816E1E4D451E00631E6B /* ASAPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASAPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C981721E4D451E00631E6B /* ASAPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASAPUITests.swift; sourceTree = "<group>"; };
 		80C981741E4D451E00631E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80C981771E4D451E00631E6B /* ASAP WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASAP WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C9817D1E4D451E00631E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		80C9817F1E4D451E00631E6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80C981811E4D451E00631E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80C981861E4D451E00631E6B /* ASAP WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ASAP WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C9818C1E4D451E00631E6B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		80C9818D1E4D451E00631E6B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		80C9818F1E4D451E00631E6B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		80C981911E4D451E00631E6B /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		80C981931E4D451E00631E6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80C981951E4D451E00631E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80C981B91E4D48A900631E6B /* ASAP_Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASAP_Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C981B91E4D48A900631E6B /* ASAP_Staging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASAP_Staging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C981BA1E4D48AA00631E6B /* ASAP copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ASAP copy-Info.plist"; path = "/Users/Sriram/Desktop/ASAP/ASAP copy-Info.plist"; sourceTree = "<absolute>"; };
-		80C981CB1E4D492400631E6B /* ASAP_Appstore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASAP_Appstore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C981CB1E4D492400631E6B /* ASAP_Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASAP_Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80C981CC1E4D492400631E6B /* ASAP_Production copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ASAP_Production copy-Info.plist"; path = "/Users/Sriram/Desktop/ASAP/ASAP_Production copy-Info.plist"; sourceTree = "<absolute>"; };
+		80E29FBE1E561AA100B3C856 /* VerificationCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationCodeViewController.swift; sourceTree = "<group>"; };
+		80E2C54E1E5CCAD90092E70C /* ASAPUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASAPUserDefaults.swift; sourceTree = "<group>"; };
+		80E650751E652AFB00047FAD /* ServiceProviderPlansCollectionViewHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProviderPlansCollectionViewHeaderCell.swift; sourceTree = "<group>"; };
+		80E650791E652B4100047FAD /* ServiceProviderPlansCollectionViewPlanTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProviderPlansCollectionViewPlanTitleCell.swift; sourceTree = "<group>"; };
+		80E6507D1E652B6300047FAD /* ServiceProviderPlansCollectionViewPlanTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServiceProviderPlansCollectionViewPlanTitleCell.xib; sourceTree = "<group>"; };
+		80E650811E652B7600047FAD /* ServiceProviderPlansCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProviderPlansCollectionViewCell.swift; sourceTree = "<group>"; };
+		80E650851E652B8400047FAD /* ServiceProviderPlansCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServiceProviderPlansCollectionViewCell.xib; sourceTree = "<group>"; };
 		90318BD2428A3EDB4BFE342F /* Pods_ASAPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASAPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		903AB9610DB11D6BAA6EAC60 /* Pods_ASAP_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASAP_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A23F2F97A79FE3E9A1636746 /* Pods-ASAP_Production.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP_Production.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP_Production/Pods-ASAP_Production.release.xcconfig"; sourceTree = "<group>"; };
+		A6E19D4C5FE0B301B1A9F420 /* Pods_ASAP_Development.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASAP_Development.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84E97AB85690EB637852270 /* Pods-ASAP_Staging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP_Staging.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP_Staging/Pods-ASAP_Staging.release.xcconfig"; sourceTree = "<group>"; };
 		C345FEF2D8C9B60C457E8A54 /* Pods_ASAP_Production.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASAP_Production.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF28B83BC105687860C1512 /* Pods-ASAP_Development.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP_Development.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP_Development/Pods-ASAP_Development.release.xcconfig"; sourceTree = "<group>"; };
 		CE51C19D100213AA761B8D9E /* Pods_ASAP_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASAP_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D207BAE98EAF8B9982988748 /* Pods-ASAP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP/Pods-ASAP.debug.xcconfig"; sourceTree = "<group>"; };
 		DEAB28D92CBDD771B9C21A88 /* Pods_ASAPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASAPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -244,19 +298,12 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		678BB9EE0E911A244EF20859 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8170F61865D2A62C8D10D6A6 /* Pods_ASAP_WatchKit_App.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		80C9814C1E4D451B00631E6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A215A5D3DE7CE4613AD4CF42 /* Pods_ASAP.framework in Frameworks */,
+				93F4B070696C29EAB1AB9621 /* Pods_ASAP_Development.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,19 +323,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80C981831E4D451E00631E6B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FD04994035599DE2D0214E56 /* Pods_ASAP_WatchKit_Extension.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		80C981AF1E4D48A900631E6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				61F69C2E7337160FCEC79914 /* Pods_ASAP_Production.framework in Frameworks */,
+				678E68FF6E2B1C591B74040C /* Pods_ASAP_Staging.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0591ACE9AC49F70DF89684A0 /* Pods_ASAP_Appstore.framework in Frameworks */,
+				D6188353DC3729FB5B052CC7 /* Pods_ASAP_Production.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,24 +354,47 @@
 				90318BD2428A3EDB4BFE342F /* Pods_ASAPUITests.framework */,
 				144EAD956FDA56EB105FB216 /* Pods_ASAP_Appstore.framework */,
 				C345FEF2D8C9B60C457E8A54 /* Pods_ASAP_Production.framework */,
+				A6E19D4C5FE0B301B1A9F420 /* Pods_ASAP_Development.framework */,
+				26142A679A3CD23FB8223C2A /* Pods_ASAP_Staging.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80172E1A1E63DA8D0074614E /* SignIn/RegistrationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				80C981541E4D451D00631E6B /* LandingViewController.swift */,
+				809640621E52222E005C02B8 /* SignInOrSignUpViewController.swift */,
+				80E29FBE1E561AA100B3C856 /* VerificationCodeViewController.swift */,
+			);
+			name = SignIn/RegistrationControllers;
+			sourceTree = "<group>";
+		};
+		80172E1B1E63DAA90074614E /* TabbarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8083DA451E536A2800FA9B3D /* ASAPTabbarViewController.swift */,
+			);
+			name = TabbarControllers;
 			sourceTree = "<group>";
 		};
 		801AB59E1E54A12D00D2123E /* Third Party API */ = {
 			isa = PBXGroup;
 			children = (
-				801AB59F1E54A14B00D2123E /* ACFloatingTextfield.swift */,
+				808397E71E620670001D2921 /* HMSegmentedControl */,
+				808C302C1E5CB04100AF3315 /* ACFloatingTextfield.swift */,
 			);
 			name = "Third Party API";
 			sourceTree = "<group>";
 		};
-		801AB5A31E54A9E400D2123E /* SubClasses */ = {
+		801AB5A31E54A9E400D2123E /* Network Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				801AB5A41E54AA0C00D2123E /* ASAPFloatingTextfield.swift */,
+				800F2F501E5B6BE400E124AF /* ASAPHttpClinetManager.swift */,
+				808C30281E5CA58F00AF3315 /* APIConstants.swift */,
+				80E2C54E1E5CCAD90092E70C /* ASAPUserDefaults.swift */,
 			);
-			name = SubClasses;
+			name = "Network Helpers";
 			sourceTree = "<group>";
 		};
 		802D4D921E5208D600E2DEC4 /* Resources */ = {
@@ -353,11 +417,11 @@
 		806FCAD11E503C4E00D719C5 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				80C981541E4D451D00631E6B /* LandingViewController.swift */,
-				809640621E52222E005C02B8 /* SignInOrSignUpViewController.swift */,
-				8083DA451E536A2800FA9B3D /* ASAPTabbarViewController.swift */,
+				80172E1A1E63DA8D0074614E /* SignIn/RegistrationControllers */,
+				80172E1B1E63DAA90074614E /* TabbarControllers */,
 				8083DA311E5368BA00FA9B3D /* HomeViewController.swift */,
-				8083DA391E5368DA00FA9B3D /* TelecomViewController.swift */,
+				808397CE1E61F3A7001D2921 /* TelecomControllers */,
+				80172E1C1E63DAEA0074614E /* CompaniesListViewController.swift */,
 				8083DA351E5368CB00FA9B3D /* DTHViewController.swift */,
 				8083DA3D1E5368F500FA9B3D /* FinancialViewController.swift */,
 				8083DA411E53690300FA9B3D /* ProfileViewController.swift */,
@@ -373,9 +437,55 @@
 			name = Categories;
 			sourceTree = "<group>";
 		};
+		808397BD1E6199C8001D2921 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				808397BE1E619A6C001D2921 /* BannerCollectionViewCell.swift */,
+				808397C21E619A86001D2921 /* BannerCollectionViewCell.xib */,
+				808397C61E61A026001D2921 /* MenuCollectionViewCell.swift */,
+				808397CA1E61B435001D2921 /* MenuCollectionViewCell.xib */,
+				808397D31E61F7FF001D2921 /* ServiceTypeCollectionViewCell.swift */,
+				808397D71E61F813001D2921 /* ServiceTypeCollectionViewCell.xib */,
+				808397DF1E61FE35001D2921 /* SelectLocationCollectionViewCell.swift */,
+				808397E31E61FE40001D2921 /* SelectLocationCollectionViewCell.xib */,
+				80BFC17B1E62A96C00CA0CFA /* ServiceProviderCollectionViewCell.swift */,
+				80BFC17F1E62A97B00CA0CFA /* ServiceProviderCollectionViewCell.xib */,
+				80172E121E63D93B0074614E /* CompaniesTableViewCell.swift */,
+				80172E161E63D9560074614E /* CompaniesTableViewCell.xib */,
+				80E650751E652AFB00047FAD /* ServiceProviderPlansCollectionViewHeaderCell.swift */,
+				80E650791E652B4100047FAD /* ServiceProviderPlansCollectionViewPlanTitleCell.swift */,
+				80E6507D1E652B6300047FAD /* ServiceProviderPlansCollectionViewPlanTitleCell.xib */,
+				80E650811E652B7600047FAD /* ServiceProviderPlansCollectionViewCell.swift */,
+				80E650851E652B8400047FAD /* ServiceProviderPlansCollectionViewCell.xib */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		808397CE1E61F3A7001D2921 /* TelecomControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8083DA391E5368DA00FA9B3D /* TelecomViewController.swift */,
+				808397CF1E61F43F001D2921 /* ServiceSelectionViewController.swift */,
+				808397DB1E61FDA1001D2921 /* SelectLocationViewController.swift */,
+				808397ED1E62085E001D2921 /* SelectServiceProvideViewController.swift */,
+				803F54C91E6484D80005C81E /* ServiceProvidersPlansViewController.swift */,
+			);
+			name = TelecomControllers;
+			sourceTree = "<group>";
+		};
+		808397E71E620670001D2921 /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				808397E81E620687001D2921 /* HMSegmentedControl.swift */,
+				808397E91E620687001D2921 /* HMSegmentedControl.h */,
+			);
+			name = HMSegmentedControl;
+			sourceTree = "<group>";
+		};
 		80C981461E4D451B00631E6B = {
 			isa = PBXGroup;
 			children = (
+				808004931E5E3D68004F53F3 /* ASAP_Development.entitlements */,
 				80C981511E4D451D00631E6B /* ASAP */,
 				80C981661E4D451E00631E6B /* ASAPTests */,
 				80C981711E4D451E00631E6B /* ASAPUITests */,
@@ -392,13 +502,11 @@
 		80C981501E4D451D00631E6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80C9814F1E4D451D00631E6B /* ASAP.app */,
+				80C9814F1E4D451D00631E6B /* ASAP_Development.app */,
 				80C981631E4D451E00631E6B /* ASAPTests.xctest */,
 				80C9816E1E4D451E00631E6B /* ASAPUITests.xctest */,
-				80C981771E4D451E00631E6B /* ASAP WatchKit App.app */,
-				80C981861E4D451E00631E6B /* ASAP WatchKit Extension.appex */,
-				80C981B91E4D48A900631E6B /* ASAP_Production.app */,
-				80C981CB1E4D492400631E6B /* ASAP_Appstore.app */,
+				80C981B91E4D48A900631E6B /* ASAP_Staging.app */,
+				80C981CB1E4D492400631E6B /* ASAP_Production.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -407,7 +515,8 @@
 			isa = PBXGroup;
 			children = (
 				80C981521E4D451D00631E6B /* AppDelegate.swift */,
-				801AB5A31E54A9E400D2123E /* SubClasses */,
+				808397BD1E6199C8001D2921 /* CustomCells */,
+				801AB5A31E54A9E400D2123E /* Network Helpers */,
 				801AB59E1E54A12D00D2123E /* Third Party API */,
 				806FCAD21E503FAD00D719C5 /* Categories */,
 				806FCAD11E503C4E00D719C5 /* ViewControllers */,
@@ -486,6 +595,10 @@
 				17AF3B4179978615FC369BD6 /* Pods-ASAP_Appstore.release.xcconfig */,
 				24B250A54E888723A6E1FF8E /* Pods-ASAP_Production.debug.xcconfig */,
 				A23F2F97A79FE3E9A1636746 /* Pods-ASAP_Production.release.xcconfig */,
+				1CA5C144D00F4329CDE8216D /* Pods-ASAP_Development.debug.xcconfig */,
+				CDF28B83BC105687860C1512 /* Pods-ASAP_Development.release.xcconfig */,
+				42E5C13C5F1E58C1B4DD31FE /* Pods-ASAP_Staging.debug.xcconfig */,
+				A84E97AB85690EB637852270 /* Pods-ASAP_Staging.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -493,9 +606,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		80C9814E1E4D451B00631E6B /* ASAP */ = {
+		80C9814E1E4D451B00631E6B /* ASAP_Development */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80C981A01E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAP" */;
+			buildConfigurationList = 80C981A01E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAP_Development" */;
 			buildPhases = (
 				B5EF36E66CAD9E45630B8529 /* [CP] Check Pods Manifest.lock */,
 				80C9814B1E4D451B00631E6B /* Sources */,
@@ -508,11 +621,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				80C9817A1E4D451E00631E6B /* PBXTargetDependency */,
 			);
-			name = ASAP;
+			name = ASAP_Development;
 			productName = ASAP;
-			productReference = 80C9814F1E4D451D00631E6B /* ASAP.app */;
+			productReference = 80C9814F1E4D451D00631E6B /* ASAP_Development.app */;
 			productType = "com.apple.product-type.application";
 		};
 		80C981621E4D451E00631E6B /* ASAPTests */ = {
@@ -557,49 +669,9 @@
 			productReference = 80C9816E1E4D451E00631E6B /* ASAPUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		80C981761E4D451E00631E6B /* ASAP WatchKit App */ = {
+		80C981A91E4D48A900631E6B /* ASAP_Staging */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80C9819C1E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAP WatchKit App" */;
-			buildPhases = (
-				A8BE4C6F04FCC64E03085C4D /* [CP] Check Pods Manifest.lock */,
-				80C981751E4D451E00631E6B /* Resources */,
-				80C9819B1E4D451E00631E6B /* Embed App Extensions */,
-				678BB9EE0E911A244EF20859 /* Frameworks */,
-				574392A3A2C5D07EDDD69491 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				80C981891E4D451E00631E6B /* PBXTargetDependency */,
-			);
-			name = "ASAP WatchKit App";
-			productName = "ASAP WatchKit App";
-			productReference = 80C981771E4D451E00631E6B /* ASAP WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		80C981851E4D451E00631E6B /* ASAP WatchKit Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 80C981981E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAP WatchKit Extension" */;
-			buildPhases = (
-				31CD3624899B07A1A00ACA15 /* [CP] Check Pods Manifest.lock */,
-				80C981821E4D451E00631E6B /* Sources */,
-				80C981831E4D451E00631E6B /* Frameworks */,
-				80C981841E4D451E00631E6B /* Resources */,
-				07A3AD03CD014FCE0C9E68C8 /* [CP] Embed Pods Frameworks */,
-				4CB1F50DFB763C460B8AFD6A /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ASAP WatchKit Extension";
-			productName = "ASAP WatchKit Extension";
-			productReference = 80C981861E4D451E00631E6B /* ASAP WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
-		};
-		80C981A91E4D48A900631E6B /* ASAP_Production */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 80C981B61E4D48A900631E6B /* Build configuration list for PBXNativeTarget "ASAP_Production" */;
+			buildConfigurationList = 80C981B61E4D48A900631E6B /* Build configuration list for PBXNativeTarget "ASAP_Staging" */;
 			buildPhases = (
 				3E3C73BD59E86DE84E33486A /* [CP] Check Pods Manifest.lock */,
 				80C981AC1E4D48A900631E6B /* Sources */,
@@ -612,16 +684,15 @@
 			buildRules = (
 			);
 			dependencies = (
-				80C981AA1E4D48A900631E6B /* PBXTargetDependency */,
 			);
-			name = ASAP_Production;
+			name = ASAP_Staging;
 			productName = ASAP;
-			productReference = 80C981B91E4D48A900631E6B /* ASAP_Production.app */;
+			productReference = 80C981B91E4D48A900631E6B /* ASAP_Staging.app */;
 			productType = "com.apple.product-type.application";
 		};
-		80C981BB1E4D492400631E6B /* ASAP_Appstore */ = {
+		80C981BB1E4D492400631E6B /* ASAP_Production */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80C981C81E4D492400631E6B /* Build configuration list for PBXNativeTarget "ASAP_Appstore" */;
+			buildConfigurationList = 80C981C81E4D492400631E6B /* Build configuration list for PBXNativeTarget "ASAP_Production" */;
 			buildPhases = (
 				8ABF4C4A8C659E15F99C9F53 /* [CP] Check Pods Manifest.lock */,
 				80C981BE1E4D492400631E6B /* Sources */,
@@ -634,11 +705,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				80C981BC1E4D492400631E6B /* PBXTargetDependency */,
 			);
-			name = ASAP_Appstore;
+			name = ASAP_Production;
 			productName = ASAP;
-			productReference = 80C981CB1E4D492400631E6B /* ASAP_Appstore.app */;
+			productReference = 80C981CB1E4D492400631E6B /* ASAP_Production.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -653,8 +723,13 @@
 				TargetAttributes = {
 					80C9814E1E4D451B00631E6B = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = CJ4D7D4DV6;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 37HW86Z4ZW;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					80C981621E4D451E00631E6B = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -667,16 +742,6 @@
 						DevelopmentTeam = CJ4D7D4DV6;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 80C9814E1E4D451B00631E6B;
-					};
-					80C981761E4D451E00631E6B = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = CJ4D7D4DV6;
-						ProvisioningStyle = Automatic;
-					};
-					80C981851E4D451E00631E6B = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = CJ4D7D4DV6;
-						ProvisioningStyle = Automatic;
 					};
 					80C981A91E4D48A900631E6B = {
 						DevelopmentTeam = CJ4D7D4DV6;
@@ -699,13 +764,11 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				80C9814E1E4D451B00631E6B /* ASAP */,
-				80C981A91E4D48A900631E6B /* ASAP_Production */,
-				80C981BB1E4D492400631E6B /* ASAP_Appstore */,
+				80C9814E1E4D451B00631E6B /* ASAP_Development */,
+				80C981A91E4D48A900631E6B /* ASAP_Staging */,
+				80C981BB1E4D492400631E6B /* ASAP_Production */,
 				80C981621E4D451E00631E6B /* ASAPTests */,
 				80C9816D1E4D451E00631E6B /* ASAPUITests */,
-				80C981761E4D451E00631E6B /* ASAP WatchKit App */,
-				80C981851E4D451E00631E6B /* ASAP WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -715,10 +778,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				808397CB1E61B435001D2921 /* MenuCollectionViewCell.xib in Resources */,
 				80C9815D1E4D451D00631E6B /* LaunchScreen.storyboard in Resources */,
+				808397E41E61FE40001D2921 /* SelectLocationCollectionViewCell.xib in Resources */,
+				80E650861E652B8400047FAD /* ServiceProviderPlansCollectionViewCell.xib in Resources */,
 				80C9815A1E4D451D00631E6B /* Assets.xcassets in Resources */,
+				80172E171E63D9560074614E /* CompaniesTableViewCell.xib in Resources */,
 				802D4D9C1E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */,
+				80BFC1801E62A97B00CA0CFA /* ServiceProviderCollectionViewCell.xib in Resources */,
+				808397D81E61F813001D2921 /* ServiceTypeCollectionViewCell.xib in Resources */,
 				80C981581E4D451D00631E6B /* Main.storyboard in Resources */,
+				808397C31E619A86001D2921 /* BannerCollectionViewCell.xib in Resources */,
+				80E6507E1E652B6300047FAD /* ServiceProviderPlansCollectionViewPlanTitleCell.xib in Resources */,
 				802D4D961E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -739,35 +810,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80C981751E4D451E00631E6B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				802D4D9A1E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */,
-				802D4DA01E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */,
-				80C981801E4D451E00631E6B /* Assets.xcassets in Resources */,
-				80C9817E1E4D451E00631E6B /* Interface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80C981841E4D451E00631E6B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80C981941E4D451E00631E6B /* Assets.xcassets in Resources */,
-				802D4D9B1E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */,
-				802D4DA11E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		80C981B01E4D48A900631E6B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				808397CC1E61B435001D2921 /* MenuCollectionViewCell.xib in Resources */,
 				80C981B11E4D48A900631E6B /* LaunchScreen.storyboard in Resources */,
+				808397E51E61FE40001D2921 /* SelectLocationCollectionViewCell.xib in Resources */,
+				80E650871E652B8400047FAD /* ServiceProviderPlansCollectionViewCell.xib in Resources */,
 				80C981B21E4D48A900631E6B /* Assets.xcassets in Resources */,
+				80172E181E63D9560074614E /* CompaniesTableViewCell.xib in Resources */,
 				802D4D9D1E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */,
+				80BFC1811E62A97B00CA0CFA /* ServiceProviderCollectionViewCell.xib in Resources */,
+				808397D91E61F813001D2921 /* ServiceTypeCollectionViewCell.xib in Resources */,
 				80C981B31E4D48A900631E6B /* Main.storyboard in Resources */,
+				808397C41E619A86001D2921 /* BannerCollectionViewCell.xib in Resources */,
+				80E6507F1E652B6300047FAD /* ServiceProviderPlansCollectionViewPlanTitleCell.xib in Resources */,
 				802D4D971E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -776,10 +834,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				808397CD1E61B435001D2921 /* MenuCollectionViewCell.xib in Resources */,
 				80C981C31E4D492400631E6B /* LaunchScreen.storyboard in Resources */,
+				808397E61E61FE40001D2921 /* SelectLocationCollectionViewCell.xib in Resources */,
+				80E650881E652B8400047FAD /* ServiceProviderPlansCollectionViewCell.xib in Resources */,
 				80C981C41E4D492400631E6B /* Assets.xcassets in Resources */,
+				80172E191E63D9560074614E /* CompaniesTableViewCell.xib in Resources */,
 				802D4D9E1E52092400E2DEC4 /* MyriadPro-Semibold.ttf in Resources */,
+				80BFC1821E62A97B00CA0CFA /* ServiceProviderCollectionViewCell.xib in Resources */,
+				808397DA1E61F813001D2921 /* ServiceTypeCollectionViewCell.xib in Resources */,
 				80C981C51E4D492400631E6B /* Main.storyboard in Resources */,
+				808397C51E619A86001D2921 /* BannerCollectionViewCell.xib in Resources */,
+				80E650801E652B6300047FAD /* ServiceProviderPlansCollectionViewPlanTitleCell.xib in Resources */,
 				802D4D981E52092400E2DEC4 /* MyriadPro-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -787,21 +853,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		07A3AD03CD014FCE0C9E68C8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP WatchKit Extension/Pods-ASAP WatchKit Extension-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		112F7A6405D51155CF34E52E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -814,7 +865,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP_Appstore/Pods-ASAP_Appstore-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP_Production/Pods-ASAP_Production-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		1AD1DBB32764E69C515E0BAA /* [CP] Check Pods Manifest.lock */ = {
@@ -845,21 +896,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAPTests/Pods-ASAPTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		31CD3624899B07A1A00ACA15 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		342C6DCC10848E9AA56C7727 /* [CP] Embed Pods Frameworks */ = {
@@ -904,37 +940,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP_Production/Pods-ASAP_Production-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4CB1F50DFB763C460B8AFD6A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP WatchKit Extension/Pods-ASAP WatchKit Extension-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		574392A3A2C5D07EDDD69491 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP WatchKit App/Pods-ASAP WatchKit App-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP_Staging/Pods-ASAP_Staging-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8257525D837FEDA7DE99179E /* [CP] Embed Pods Frameworks */ = {
@@ -949,7 +955,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP_Production/Pods-ASAP_Production-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP_Staging/Pods-ASAP_Staging-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8ABF4C4A8C659E15F99C9F53 /* [CP] Check Pods Manifest.lock */ = {
@@ -982,21 +988,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		A8BE4C6F04FCC64E03085C4D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		AA57277796F82E1AD2B0C86E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1009,7 +1000,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP_Appstore/Pods-ASAP_Appstore-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP_Production/Pods-ASAP_Production-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ACE95414E3EEE4F874FC7EB6 /* [CP] Copy Pods Resources */ = {
@@ -1039,7 +1030,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP/Pods-ASAP-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP_Development/Pods-ASAP_Development-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B5EF36E66CAD9E45630B8529 /* [CP] Check Pods Manifest.lock */ = {
@@ -1084,7 +1075,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP/Pods-ASAP-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP_Development/Pods-ASAP_Development-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1096,16 +1087,34 @@
 			files = (
 				8083DA321E5368BA00FA9B3D /* HomeViewController.swift in Sources */,
 				8083DA361E5368CB00FA9B3D /* DTHViewController.swift in Sources */,
+				803F54CA1E6484D80005C81E /* ServiceProvidersPlansViewController.swift in Sources */,
+				80E650761E652AFB00047FAD /* ServiceProviderPlansCollectionViewHeaderCell.swift in Sources */,
+				80E2C54F1E5CCAD90092E70C /* ASAPUserDefaults.swift in Sources */,
+				808397EA1E620687001D2921 /* HMSegmentedControl.swift in Sources */,
+				808C30291E5CA58F00AF3315 /* APIConstants.swift in Sources */,
+				80E29FBF1E561AA100B3C856 /* VerificationCodeViewController.swift in Sources */,
+				808397D01E61F43F001D2921 /* ServiceSelectionViewController.swift in Sources */,
+				808397E01E61FE35001D2921 /* SelectLocationCollectionViewCell.swift in Sources */,
 				802D4DA91E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */,
-				801AB5A01E54A14B00D2123E /* ACFloatingTextfield.swift in Sources */,
+				808397BF1E619A6C001D2921 /* BannerCollectionViewCell.swift in Sources */,
 				809640631E52222E005C02B8 /* SignInOrSignUpViewController.swift in Sources */,
 				8083DA3E1E5368F500FA9B3D /* FinancialViewController.swift in Sources */,
+				80E6507A1E652B4100047FAD /* ServiceProviderPlansCollectionViewPlanTitleCell.swift in Sources */,
+				80172E1D1E63DAEA0074614E /* CompaniesListViewController.swift in Sources */,
+				80E650821E652B7600047FAD /* ServiceProviderPlansCollectionViewCell.swift in Sources */,
+				808397C71E61A026001D2921 /* MenuCollectionViewCell.swift in Sources */,
+				80BFC17C1E62A96C00CA0CFA /* ServiceProviderCollectionViewCell.swift in Sources */,
 				8083DA3A1E5368DA00FA9B3D /* TelecomViewController.swift in Sources */,
 				8083DA421E53690300FA9B3D /* ProfileViewController.swift in Sources */,
-				801AB5A51E54AA0C00D2123E /* ASAPFloatingTextfield.swift in Sources */,
+				808397DC1E61FDA1001D2921 /* SelectLocationViewController.swift in Sources */,
 				8083DA461E536A2800FA9B3D /* ASAPTabbarViewController.swift in Sources */,
 				80C981551E4D451D00631E6B /* LandingViewController.swift in Sources */,
+				808397D41E61F7FF001D2921 /* ServiceTypeCollectionViewCell.swift in Sources */,
 				80C981531E4D451D00631E6B /* AppDelegate.swift in Sources */,
+				808397EE1E62085E001D2921 /* SelectServiceProvideViewController.swift in Sources */,
+				80172E131E63D93B0074614E /* CompaniesTableViewCell.swift in Sources */,
+				800F2F511E5B6BE400E124AF /* ASAPHttpClinetManager.swift in Sources */,
+				808C302D1E5CB04100AF3315 /* ACFloatingTextfield.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1126,33 +1135,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80C981821E4D451E00631E6B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80C981921E4D451E00631E6B /* NotificationController.swift in Sources */,
-				80C981901E4D451E00631E6B /* ExtensionDelegate.swift in Sources */,
-				802D4DAD1E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */,
-				80C9818E1E4D451E00631E6B /* InterfaceController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		80C981AC1E4D48A900631E6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8083DA331E5368BA00FA9B3D /* HomeViewController.swift in Sources */,
 				8083DA371E5368CB00FA9B3D /* DTHViewController.swift in Sources */,
+				803F54CB1E6484D80005C81E /* ServiceProvidersPlansViewController.swift in Sources */,
+				80E650771E652AFB00047FAD /* ServiceProviderPlansCollectionViewHeaderCell.swift in Sources */,
+				80E2C5501E5CCAD90092E70C /* ASAPUserDefaults.swift in Sources */,
+				808397EB1E620687001D2921 /* HMSegmentedControl.swift in Sources */,
+				808C302A1E5CA58F00AF3315 /* APIConstants.swift in Sources */,
+				80E29FC01E561AA100B3C856 /* VerificationCodeViewController.swift in Sources */,
+				808397D11E61F43F001D2921 /* ServiceSelectionViewController.swift in Sources */,
+				808397E11E61FE35001D2921 /* SelectLocationCollectionViewCell.swift in Sources */,
 				802D4DAA1E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */,
-				801AB5A11E54A14B00D2123E /* ACFloatingTextfield.swift in Sources */,
+				808397C01E619A6C001D2921 /* BannerCollectionViewCell.swift in Sources */,
 				809640641E52222E005C02B8 /* SignInOrSignUpViewController.swift in Sources */,
 				8083DA3F1E5368F500FA9B3D /* FinancialViewController.swift in Sources */,
+				80E6507B1E652B4100047FAD /* ServiceProviderPlansCollectionViewPlanTitleCell.swift in Sources */,
+				80172E1E1E63DAEA0074614E /* CompaniesListViewController.swift in Sources */,
+				80E650831E652B7600047FAD /* ServiceProviderPlansCollectionViewCell.swift in Sources */,
+				808397C81E61A026001D2921 /* MenuCollectionViewCell.swift in Sources */,
+				80BFC17D1E62A96C00CA0CFA /* ServiceProviderCollectionViewCell.swift in Sources */,
 				8083DA3B1E5368DA00FA9B3D /* TelecomViewController.swift in Sources */,
 				8083DA431E53690300FA9B3D /* ProfileViewController.swift in Sources */,
-				801AB5A61E54AA0C00D2123E /* ASAPFloatingTextfield.swift in Sources */,
+				808397DD1E61FDA1001D2921 /* SelectLocationViewController.swift in Sources */,
 				8083DA471E536A2800FA9B3D /* ASAPTabbarViewController.swift in Sources */,
 				80C981AD1E4D48A900631E6B /* LandingViewController.swift in Sources */,
+				808397D51E61F7FF001D2921 /* ServiceTypeCollectionViewCell.swift in Sources */,
 				80C981AE1E4D48A900631E6B /* AppDelegate.swift in Sources */,
+				808397EF1E62085E001D2921 /* SelectServiceProvideViewController.swift in Sources */,
+				80172E141E63D93B0074614E /* CompaniesTableViewCell.swift in Sources */,
+				800F2F521E5B6BE400E124AF /* ASAPHttpClinetManager.swift in Sources */,
+				808C302E1E5CB04100AF3315 /* ACFloatingTextfield.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1162,16 +1178,34 @@
 			files = (
 				8083DA341E5368BA00FA9B3D /* HomeViewController.swift in Sources */,
 				8083DA381E5368CB00FA9B3D /* DTHViewController.swift in Sources */,
+				803F54CC1E6484D80005C81E /* ServiceProvidersPlansViewController.swift in Sources */,
+				80E650781E652AFB00047FAD /* ServiceProviderPlansCollectionViewHeaderCell.swift in Sources */,
+				80E2C5511E5CCAD90092E70C /* ASAPUserDefaults.swift in Sources */,
+				808397EC1E620687001D2921 /* HMSegmentedControl.swift in Sources */,
+				808C302B1E5CA58F00AF3315 /* APIConstants.swift in Sources */,
+				80E29FC11E561AA100B3C856 /* VerificationCodeViewController.swift in Sources */,
+				808397D21E61F43F001D2921 /* ServiceSelectionViewController.swift in Sources */,
+				808397E21E61FE35001D2921 /* SelectLocationCollectionViewCell.swift in Sources */,
 				802D4DAB1E520F5800E2DEC4 /* UIColor+ASAPHelper.swift in Sources */,
-				801AB5A21E54A14B00D2123E /* ACFloatingTextfield.swift in Sources */,
+				808397C11E619A6C001D2921 /* BannerCollectionViewCell.swift in Sources */,
 				809640651E52222E005C02B8 /* SignInOrSignUpViewController.swift in Sources */,
 				8083DA401E5368F500FA9B3D /* FinancialViewController.swift in Sources */,
+				80E6507C1E652B4100047FAD /* ServiceProviderPlansCollectionViewPlanTitleCell.swift in Sources */,
+				80172E1F1E63DAEA0074614E /* CompaniesListViewController.swift in Sources */,
+				80E650841E652B7600047FAD /* ServiceProviderPlansCollectionViewCell.swift in Sources */,
+				808397C91E61A026001D2921 /* MenuCollectionViewCell.swift in Sources */,
+				80BFC17E1E62A96C00CA0CFA /* ServiceProviderCollectionViewCell.swift in Sources */,
 				8083DA3C1E5368DA00FA9B3D /* TelecomViewController.swift in Sources */,
 				8083DA441E53690300FA9B3D /* ProfileViewController.swift in Sources */,
-				801AB5A71E54AA0C00D2123E /* ASAPFloatingTextfield.swift in Sources */,
+				808397DE1E61FDA1001D2921 /* SelectLocationViewController.swift in Sources */,
 				8083DA481E536A2800FA9B3D /* ASAPTabbarViewController.swift in Sources */,
 				80C981BF1E4D492400631E6B /* LandingViewController.swift in Sources */,
+				808397D61E61F7FF001D2921 /* ServiceTypeCollectionViewCell.swift in Sources */,
 				80C981C01E4D492400631E6B /* AppDelegate.swift in Sources */,
+				808397F01E62085E001D2921 /* SelectServiceProvideViewController.swift in Sources */,
+				80172E151E63D93B0074614E /* CompaniesTableViewCell.swift in Sources */,
+				800F2F531E5B6BE400E124AF /* ASAPHttpClinetManager.swift in Sources */,
+				808C302F1E5CB04100AF3315 /* ACFloatingTextfield.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1180,33 +1214,13 @@
 /* Begin PBXTargetDependency section */
 		80C981651E4D451E00631E6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 80C9814E1E4D451B00631E6B /* ASAP */;
+			target = 80C9814E1E4D451B00631E6B /* ASAP_Development */;
 			targetProxy = 80C981641E4D451E00631E6B /* PBXContainerItemProxy */;
 		};
 		80C981701E4D451E00631E6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 80C9814E1E4D451B00631E6B /* ASAP */;
+			target = 80C9814E1E4D451B00631E6B /* ASAP_Development */;
 			targetProxy = 80C9816F1E4D451E00631E6B /* PBXContainerItemProxy */;
-		};
-		80C9817A1E4D451E00631E6B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 80C981761E4D451E00631E6B /* ASAP WatchKit App */;
-			targetProxy = 80C981791E4D451E00631E6B /* PBXContainerItemProxy */;
-		};
-		80C981891E4D451E00631E6B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 80C981851E4D451E00631E6B /* ASAP WatchKit Extension */;
-			targetProxy = 80C981881E4D451E00631E6B /* PBXContainerItemProxy */;
-		};
-		80C981AA1E4D48A900631E6B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 80C981761E4D451E00631E6B /* ASAP WatchKit App */;
-			targetProxy = 80C981AB1E4D48A900631E6B /* PBXContainerItemProxy */;
-		};
-		80C981BC1E4D492400631E6B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 80C981761E4D451E00631E6B /* ASAP WatchKit App */;
-			targetProxy = 80C981BD1E4D492400631E6B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1278,7 +1292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1321,7 +1335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -1329,104 +1343,37 @@
 			};
 			name = Release;
 		};
-		80C981991E4D451E00631E6B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BF64EFD0147E835026224DD /* Pods-ASAP WatchKit Extension.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = CJ4D7D4DV6;
-				INFOPLIST_FILE = "ASAP WatchKit Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAP.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.1;
-			};
-			name = Debug;
-		};
-		80C9819A1E4D451E00631E6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03C711D5EF874859F77B05FA /* Pods-ASAP WatchKit Extension.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				DEVELOPMENT_TEAM = CJ4D7D4DV6;
-				INFOPLIST_FILE = "ASAP WatchKit Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAP.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.1;
-			};
-			name = Release;
-		};
-		80C9819D1E4D451E00631E6B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C22EB82E71721B91C5807C8 /* Pods-ASAP WatchKit App.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CJ4D7D4DV6;
-				IBSC_MODULE = ASAP_WatchKit_Extension;
-				INFOPLIST_FILE = "ASAP WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAP.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.1;
-			};
-			name = Debug;
-		};
-		80C9819E1E4D451E00631E6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77C91B7078B944B115A089BC /* Pods-ASAP WatchKit App.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CJ4D7D4DV6;
-				IBSC_MODULE = ASAP_WatchKit_Extension;
-				INFOPLIST_FILE = "ASAP WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAP.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.1;
-			};
-			name = Release;
-		};
 		80C981A11E4D451E00631E6B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D207BAE98EAF8B9982988748 /* Pods-ASAP.debug.xcconfig */;
+			baseConfigurationReference = 1CA5C144D00F4329CDE8216D /* Pods-ASAP_Development.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CJ4D7D4DV6;
+				DEVELOPMENT_TEAM = 37HW86Z4ZW;
 				INFOPLIST_FILE = ASAP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAP;
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DDEVELOPMENT";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goasap.asap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0dcd77e4-4732-44cd-a0d7-fdbef888798f";
+				PROVISIONING_PROFILE_SPECIFIER = "ASAP Development";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		80C981A21E4D451E00631E6B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6BB0B343E4A7C24D979077A /* Pods-ASAP.release.xcconfig */;
+			baseConfigurationReference = CDF28B83BC105687860C1512 /* Pods-ASAP_Development.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CJ4D7D4DV6;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 37HW86Z4ZW;
 				INFOPLIST_FILE = ASAP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAP;
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DDEVELOPMENT";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goasap.asap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1a935d17-b222-4c33-b11a-394645c90797";
+				PROVISIONING_PROFILE_SPECIFIER = "ASAP Distribution";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -1495,13 +1442,14 @@
 		};
 		80C981B71E4D48A900631E6B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24B250A54E888723A6E1FF8E /* Pods-ASAP_Production.debug.xcconfig */;
+			baseConfigurationReference = 42E5C13C5F1E58C1B4DD31FE /* Pods-ASAP_Staging.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CJ4D7D4DV6;
 				INFOPLIST_FILE = "ASAP copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAP;
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DSTAGING";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goasap.asap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -1509,13 +1457,14 @@
 		};
 		80C981B81E4D48A900631E6B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A23F2F97A79FE3E9A1636746 /* Pods-ASAP_Production.release.xcconfig */;
+			baseConfigurationReference = A84E97AB85690EB637852270 /* Pods-ASAP_Staging.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CJ4D7D4DV6;
 				INFOPLIST_FILE = "ASAP copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAP;
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DSTAGING";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goasap.asap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -1523,13 +1472,14 @@
 		};
 		80C981C91E4D492400631E6B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7359C4D1FB4AA4B178992C69 /* Pods-ASAP_Appstore.debug.xcconfig */;
+			baseConfigurationReference = 24B250A54E888723A6E1FF8E /* Pods-ASAP_Production.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CJ4D7D4DV6;
 				INFOPLIST_FILE = "ASAP_Production copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAP;
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DPRODUCTION";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goasap.asap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -1537,13 +1487,14 @@
 		};
 		80C981CA1E4D492400631E6B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17AF3B4179978615FC369BD6 /* Pods-ASAP_Appstore.release.xcconfig */;
+			baseConfigurationReference = A23F2F97A79FE3E9A1636746 /* Pods-ASAP_Production.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CJ4D7D4DV6;
 				INFOPLIST_FILE = "ASAP_Production copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.asap.ASAP;
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DPRODUCTION";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goasap.asap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -1561,25 +1512,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80C981981E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAP WatchKit Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				80C981991E4D451E00631E6B /* Debug */,
-				80C9819A1E4D451E00631E6B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		80C9819C1E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAP WatchKit App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				80C9819D1E4D451E00631E6B /* Debug */,
-				80C9819E1E4D451E00631E6B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		80C981A01E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAP" */ = {
+		80C981A01E4D451E00631E6B /* Build configuration list for PBXNativeTarget "ASAP_Development" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80C981A11E4D451E00631E6B /* Debug */,
@@ -1606,7 +1539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80C981B61E4D48A900631E6B /* Build configuration list for PBXNativeTarget "ASAP_Production" */ = {
+		80C981B61E4D48A900631E6B /* Build configuration list for PBXNativeTarget "ASAP_Staging" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80C981B71E4D48A900631E6B /* Debug */,
@@ -1615,7 +1548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80C981C81E4D492400631E6B /* Build configuration list for PBXNativeTarget "ASAP_Appstore" */ = {
+		80C981C81E4D492400631E6B /* Build configuration list for PBXNativeTarget "ASAP_Production" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80C981C91E4D492400631E6B /* Debug */,

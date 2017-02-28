@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ServiceProviderCollectionViewCellIdentifier" id="A0j-Qr-Mve" customClass="ServiceProviderCollectionViewCell" customModule="ASAP_Development" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="134" height="121"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="134" height="121"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bDS-lI-ewa">
+                        <rect key="frame" x="0.0" y="0.0" width="134" height="121"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zB9-Tb-xpV">
+                                <rect key="frame" x="10" y="10" width="114" height="101"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="zB9-Tb-xpV" secondAttribute="bottom" constant="10" id="9O9-Ji-hmj"/>
+                            <constraint firstItem="zB9-Tb-xpV" firstAttribute="top" secondItem="bDS-lI-ewa" secondAttribute="top" constant="10" id="FJd-sH-tx9"/>
+                            <constraint firstAttribute="trailing" secondItem="zB9-Tb-xpV" secondAttribute="trailing" constant="10" id="WNb-5v-iul"/>
+                            <constraint firstItem="zB9-Tb-xpV" firstAttribute="leading" secondItem="bDS-lI-ewa" secondAttribute="leading" constant="10" id="uY5-w8-1pl"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="bDS-lI-ewa" secondAttribute="bottom" id="HZ2-wc-lV1"/>
+                <constraint firstAttribute="trailing" secondItem="bDS-lI-ewa" secondAttribute="trailing" id="Sta-YB-3eA"/>
+                <constraint firstItem="bDS-lI-ewa" firstAttribute="top" secondItem="A0j-Qr-Mve" secondAttribute="top" id="cSs-Jv-CEN"/>
+                <constraint firstItem="bDS-lI-ewa" firstAttribute="leading" secondItem="A0j-Qr-Mve" secondAttribute="leading" id="xQe-Mz-wYZ"/>
+            </constraints>
+            <size key="customSize" width="134" height="121"/>
+            <connections>
+                <outlet property="bgView" destination="bDS-lI-ewa" id="hkz-Cz-gnt"/>
+                <outlet property="serviceProviderImageView" destination="zB9-Tb-xpV" id="C8p-pt-Abv"/>
+            </connections>
+            <point key="canvasLocation" x="67" y="25.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
