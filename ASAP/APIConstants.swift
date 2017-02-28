@@ -21,7 +21,8 @@ class APIConstants {
     static let TELECOM_GET_SERVICE_PROVIDERS = ASAP_BASE_URL + "getServiceProviders"
     static let TELECOM_GET_COMPANIES = ASAP_BASE_URL + "getCompanies"
     static let TELECOM_GET_PLANS = ASAP_BASE_URL + "getPlans"
-    
+    static let TELECOM_GET_POSTPAID_NUMBERS = ASAP_BASE_URL + "getPostpaidNumbers"
+
     #if DEVELOPMENT
     
     static let ASAP_BASE_URL = "http://dev.goasap.co.in/"

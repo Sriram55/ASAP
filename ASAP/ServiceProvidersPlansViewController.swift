@@ -151,11 +151,11 @@ extension ServiceProvidersPlansViewController : UICollectionViewDataSource {
 
 extension ServiceProvidersPlansViewController : UICollectionViewDelegate {
     
-//    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//        
-//        let selectServiceProviderViewController = self.storyboard!.instantiateViewController(withIdentifier: "SelectServiceProvideViewController") as! SelectServiceProvideViewController
-//        self.navigationController?.pushViewController(selectServiceProviderViewController, animated: true)
-//    }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let SelectMobileNumberViewController = self.storyboard!.instantiateViewController(withIdentifier: "SelectMobileNumberViewController") as! SelectMobileNumberViewController
+        self.navigationController?.pushViewController(SelectMobileNumberViewController, animated: true)
+    }
     
     
     

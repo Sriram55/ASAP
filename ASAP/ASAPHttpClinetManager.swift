@@ -215,4 +215,26 @@ class ASAPHttpClinetManager: NSObject {
         
     }
     
+    
+    
+    func getPostPaidPhoneNumbers(_ parameters: [String: Any], success: @escaping (_ result: JSON) -> Void, failure: @escaping (_ error: Error) -> Void) {
+        
+        Alamofire.request(APIConstants.TELECOM_GET_POSTPAID_NUMBERS, method: .post,
+                          parameters: parameters,
+                          encoding: JSONEncoding.default,
+                          headers: ["Content-Type": "application/json", "Accept": "application/json"]).responseJSON { (response: DataResponse<Any>) in
+                            switch response.result {
+                            case .success(let data):
+                                let swiftyJsonVar = JSON(data)
+                                success(swiftyJsonVar)
+                                
+                            case .failure(let error):
+                                failure(error)
+                            }
+        }
+        
+    }
+    
+
+    
 }
